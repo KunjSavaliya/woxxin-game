@@ -24,11 +24,11 @@ bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500">
 
                 </div>
                 <div className="absolute inset-0 flex items-center">
-                    <div className="w-full px-6 sm:px-10 lg:px-32">
+                    <div className="max-w-7xl mx-auto w-full p-10">
 
                         <div className="max-w-2xl text-white">
 
-                            <p className="uppercase tracking-widest text-sm md:text-lg mb-4">
+                            <p className="uppercase tracking-widest text-xl md:text-2xl mb-4">
                                 WE ARE HERE FOR
                             </p>
 
@@ -36,7 +36,7 @@ bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500">
                                 GROW <br /> EVERYDAY
                             </h1>
 
-                            <button className="mt-8 flex items-center gap-2 bg-orange-500 hover:bg-orange-600 px-6 md:px-8 py-3 md:py-4 rounded-lg text-base md:text-lg font-semibold transition">
+                            <button className="mt-8 flex items-center gap-2 bg-orange-400 hover:scale-105 transition cursor-pointer px-6 md:px-8 py-3 md:py-4 rounded-lg text-base md:text-lg font-semibold transition">
                                 Learn More
                                 <ArrowUpRight size={18} />
                             </button>

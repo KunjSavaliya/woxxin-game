@@ -48,12 +48,17 @@ export default function Navbar() {
 
                 {/* Right Button */}
                 <div className="hidden lg:flex items-center gap-4">
-                    <button className="text-2xl flex items-center gap-2 bg-orange-400  text-white px-6 py-2 rounded-full font-semibold hover:scale-105 transition cursor-pointer">
+                    <a
+                        href="https://woxxin.com/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-2xl flex items-center gap-2 bg-orange-400 text-white px-6 py-2 rounded-full font-semibold hover:scale-105 transition cursor-pointer"
+                    >
                         More Info
                         <span className="bg-black rounded-full p-1">
                             <ArrowUpRight size={16} />
                         </span>
-                    </button>
+                    </a>
                 </div>
 
                 {/* Mobile Toggle */}
