@@ -188,15 +188,15 @@ bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500">
                         </SwiperSlide>
 
                         <SwiperSlide>
-                            <Image src="/aboutUS/ggadmob.png" alt="AdMob" width={120} height={40} />
+                            <Image src="/aboutUs/ggadmob.png" alt="AdMob" width={120} height={40} />
                         </SwiperSlide>
 
                         <SwiperSlide>
-                            <Image src="/aboutUS/ggads.png" alt="Google Ads" width={140} height={40} />
+                            <Image src="/aboutUs/ggads.png" alt="Google Ads" width={140} height={40} />
                         </SwiperSlide>
 
                         <SwiperSlide>
-                            <Image src="/aboutUS/tapjoy.png" alt="Tapjoy" width={140} height={40} />
+                            <Image src="/aboutUs/tapjoy.png" alt="Tapjoy" width={140} height={40} />
                         </SwiperSlide>
 
                         <SwiperSlide>
