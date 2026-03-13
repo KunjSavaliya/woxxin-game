@@ -10,7 +10,7 @@ import "swiper/css/navigation";
 function Aboutus() {
     return (
         <>
-            <div className="relative w-full h-[500px] sm:h-[600px] lg:h-[850px] ">
+            <div className="relative w-full h-[500px] sm:h-[600px] lg:h-[800px] ">
 
                 <Image
                     src="/aboutUs/AboutUs.png"
@@ -200,14 +200,14 @@ bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500">
                         </SwiperSlide>
 
                         <SwiperSlide>
-                            <Image src="/aboutUS/unity.png" alt="Unity" width={120} height={40} />
+                            <Image src="/aboutUs/unity.png" alt="Unity" width={120} height={40} />
                         </SwiperSlide>
 
                         <SwiperSlide>
-                            <Image src="/aboutUS/tiktok.png" alt="TikTok" width={120} height={40} />
+                            <Image src="/aboutUs/tiktok.png" alt="TikTok" width={120} height={40} />
                         </SwiperSlide>
                         <SwiperSlide>
-                            <Image src="/aboutUS/tiktok.png" alt="TikTok" width={120} height={40} />
+                            <Image src="/aboutUs/tiktok.png" alt="TikTok" width={120} height={40} />
                         </SwiperSlide>
 
                     </Swiper>
