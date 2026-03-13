@@ -15,7 +15,7 @@ export default function Navbar() {
     return (
         <header className="w-full flex justify-center fixed top-6 z-50">
             <div className="w-[95%] max-w-7xl 
-  bg-[#0B0F1A]
+  bg-[#00103d]
   backdrop-blur-xl 
   rounded-full 
   px-6 py-4 
