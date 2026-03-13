@@ -1,11 +1,11 @@
-import Navbar from "./components/common/navbar";
+import Aboutus from "./components/pages/about-us/page";
 
 
 
 export default function Home() {
   return (
     <>
-      <Navbar />
+      <Aboutus />
     </>
   );
 }

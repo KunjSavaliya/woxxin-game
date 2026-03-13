@@ -214,6 +214,65 @@ bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500">
 
                 </div>
             </section >
+            <section className="relative w-full py-20">
+
+                {/* Background Image */}
+                <Image
+                    src="/aboutUs/bg3.jpg"
+                    alt="office"
+                    fill
+                    className="object-cover"
+                />
+
+                {/* Overlay */}
+                <div className="absolute inset-0 bg-[#0b1d33]/80"></div>
+                <div className="absolute bottom-0 left-0 w-full h-[6px] 
+bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500"></div>
+
+                <div className="relative max-w-7xl mx-auto px-6 lg:px-12">
+
+                    {/* Title */}
+                    <h2 className="text-center text-3xl md:text-4xl lg:text-5xl font-bold text-orange-400 mb-16">
+                        CORE VALUE
+                    </h2>
+
+                    {/* Cards */}
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 justify-items-center">
+
+                        {/* Card 1 */}
+                        <div className="w-[260px] sm:w-[280px] lg:w-[320px] p-10 flex items-center justify-center hover:scale-105 transition">
+                            <Image
+                                src="/aboutUs/innovation.png"
+                                alt="Love Support"
+                                width={320}
+                                height={320}
+                            />
+                        </div>
+
+                        {/* Card 2 */}
+                        <div className="w-[260px] sm:w-[280px] lg:w-[320px] p-10 flex items-center justify-center hover:scale-105 transition">
+                            <Image
+                                src="/aboutUs/mobility.png"
+                                alt="Different"
+                                width={320}
+                                height={320}
+                            />
+                        </div>
+
+                        {/* Card 3 */}
+                        <div className="w-[260px] sm:w-[280px] lg:w-[320px] p-10 flex items-center justify-center hover:scale-105 transition">
+                            <Image
+                                src="/aboutUs/openess.png"
+                                alt="Less is More"
+                                width={320}
+                                height={320}
+                            />
+                        </div>
+
+                    </div>
+
+                </div>
+            </section>
         </>
 
     );
