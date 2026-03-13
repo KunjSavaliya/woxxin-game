@@ -10,7 +10,7 @@ import "swiper/css/navigation";
 function Aboutus() {
     return (
         <>
-            <div className="relative w-full h-[500px] sm:h-[600px] lg:h-[750px] ">
+            <div className="relative w-full h-[500px] sm:h-[600px] lg:h-[850px] ">
 
                 <Image
                     src="/aboutUs/AboutUs.png"
@@ -48,7 +48,7 @@ bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500">
 
             </div>
             <section className="w-full bg-[#00103d] text-white py-16 lg:py-24 ">
-                <div className="max-w-7xl mx-auto px-6 lg:px-12">
+                <div className="max-w-[90rem] mx-auto px-6 lg:px-12 ">
 
                     {/* Grid Layout */}
                     <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -106,7 +106,7 @@ bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500">
 
                     </div>
                 </div>
-                <div className="max-w-7xl mx-auto px-6 lg:px-12 mt-32">
+                <div className="max-w-[90rem] mx-auto px-6 lg:px-12 mt-32">
 
                     <div className="grid lg:grid-cols-2 gap-16 items-center">
 
@@ -163,7 +163,7 @@ bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500">
                     </div>
 
                 </div>
-                <div className="max-w-7xl mx-auto px-6 lg:px-12 mt-32">
+                <div className="max-w-[90rem] mx-auto px-6 lg:px-12 mt-32">
 
                     <Swiper
                         modules={[Autoplay, Navigation]}
@@ -184,7 +184,7 @@ bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500">
                     >
 
                         <SwiperSlide>
-                            <Image src="/aboutUS/ggads.png" alt="Google Ads" width={140} height={40} />
+                            <Image src="/aboutUs/ggads.png" alt="Google Ads" width={140} height={40} />
                         </SwiperSlide>
 
                         <SwiperSlide>

@@ -8,7 +8,7 @@ export default function Footer() {
         <>
             <footer className="bg-[#111111] text-white pt-16 pb-6 px-6">
 
-                <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12">
+                <div className="max-w-[90rem] mx-auto grid grid-cols-1 md:grid-cols-2 gap-12">
 
                     {/* LEFT SECTION */}
                     <div>
