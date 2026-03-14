@@ -36,7 +36,7 @@ bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500">
                                 GROW <br /> EVERYDAY
                             </h1>
 
-                            <button className="mt-8 flex items-center gap-2 bg-orange-400 hover:scale-105 transition cursor-pointer px-6 md:px-8 py-3 md:py-4 rounded-lg text-base md:text-lg font-semibold transition">
+                            <button className="mt-8 flex items-center gap-2 bg-orange-400 hover:scale-105  cursor-pointer px-6 md:px-8 py-3 md:py-4 rounded-lg text-base md:text-lg font-semibold transition">
                                 Learn More
                                 <ArrowUpRight size={18} />
                             </button>
@@ -47,7 +47,7 @@ bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500">
                 </div>
 
             </div>
-            <section className="w-full bg-[#00103d] text-white py-16 lg:py-24 ">
+            <section className="w-full bg-[#6510d5] text-white py-16 lg:py-24 ">
                 <div className="max-w-[90rem] mx-auto px-6 lg:px-12 ">
 
                     {/* Grid Layout */}
@@ -55,15 +55,15 @@ bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500">
 
                         {/* Left Content */}
                         <div>
-                            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4">
+                            <h2 className="text-3xl sm:text-4xl lg:text-7xl font-bold mb-4">
                                 Game Publish
                             </h2>
 
-                            <p className="text-orange-400 font-semibold tracking-wide mb-6">
+                            <p className="text-orange-400 font-semibold tracking-wide mb-6 text-2xl">
                                 WIN-WIN COOPERATION
                             </p>
 
-                            <p className="text-gray-300 leading-relaxed mb-10 max-w-xl">
+                            <p className="text-gray-300 leading-relaxed mb-10 max-w-xl text-xl">
                                 Woxxin Games, boasting years of expertise in the distribution sector
                                 and a professional data analysis system, stands as a reliable
                                 partner to numerous major advertising networks worldwide. We
@@ -75,19 +75,19 @@ bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500">
                             <div className="flex items-center gap-10 flex-wrap">
 
                                 <div>
-                                    <h3 className="text-4xl lg:text-5xl font-bold text-orange-400">
+                                    <h3 className="text-4xl lg:text-7xl font-bold text-orange-400">
                                         100+
                                     </h3>
-                                    <p className="text-gray-300 mt-2">Games launched</p>
+                                    <p className="text-gray-300 mt-2 text-xl">Games launched</p>
                                 </div>
 
                                 <div className="hidden sm:block w-[1px] h-12 bg-gray-500"></div>
 
                                 <div>
-                                    <h3 className="text-4xl lg:text-5xl font-bold text-orange-400">
+                                    <h3 className="text-4xl lg:text-7xl font-bold text-orange-400">
                                         1M+
                                     </h3>
-                                    <p className="text-gray-300 mt-2">Downloads</p>
+                                    <p className="text-gray-300 mt-2 text-xl">Downloads</p>
                                 </div>
 
                             </div>

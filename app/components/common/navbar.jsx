@@ -15,7 +15,7 @@ export default function Navbar() {
     return (
         <header className="w-full flex justify-center fixed top-6 z-50">
             <div className="w-[95%] max-w-[85rem]
-  bg-[#00103d]
+  bg-[#6510d5]
   backdrop-blur-xl 
   rounded-full 
   px-6 py-4 
@@ -28,7 +28,7 @@ export default function Navbar() {
                     <img
                         src="/logo.png"
                         alt="logo"
-                        className="cursor-pointer w-36"
+                        className="cursor-pointer w-40"
                         onClick={() => handleNavigation("/")}
                     />
                 </div>
