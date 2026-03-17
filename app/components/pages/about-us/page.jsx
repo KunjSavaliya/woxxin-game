@@ -289,7 +289,7 @@ bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500"></div>
                 <div className="max-w-[80rem] mx-auto px-4">
 
                     {/* TITLE */}
-                    <h2 className="text-3xl md:text-7xl font-bold text-center mb-10 text-gray-800">
+                    <h2 className="text-3xl md:text-7xl font-semibold text-center mb-10 text-[#00E5FF]  ">
                         Woxxin Games
                     </h2>
 
