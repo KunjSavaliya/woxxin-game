@@ -54,13 +54,13 @@ export default function Footer() {
                         </h3>
 
                         <ul className="space-y-3 text-gray-300">
-                            <li><Link href="/components/pages/about-us" className="hover:text-blue-400 transition">About Us</Link></li>
-                            <li><Link href="/components/pages/games" className="hover:text-blue-400 transition">Games</Link></li>
+                            <li><Link href="/components/pages/about-us" className="hover:text-[#00E5FF] transition">About Us</Link></li>
+                            <li><Link href="/components/pages/games" className="hover:text-[#00E5FF] transition">Games</Link></li>
 
-                            <li><Link href="/components/pages/news" className="hover:text-blue-400 transition">News</Link></li>
+                            <li><Link href="/components/pages/news" className="hover:text-[#00E5FF] transition">News</Link></li>
 
-                            <li><Link href="/components/pages/privacy-policy" className="hover:text-blue-400 transition">Privacy Policy</Link></li>
-                            <li><Link href="/components/pages/terms-condition" className="hover:text-blue-400 transition">Terms and Condition</Link></li>
+                            <li><Link href="/components/pages/privacy-policy" className="hover:text-[#00E5FF] transition">Privacy Policy</Link></li>
+                            <li><Link href="/components/pages/terms-condition" className="hover:text-[#00E5FF] transition">Terms and Condition</Link></li>
                         </ul>
                     </div>
                 </div>
@@ -68,12 +68,12 @@ export default function Footer() {
                 {/* Divider */}
                 <div className="border-t border-gray-800 mt-12 pt-6 text-center text-gray-400 text-sm">
                     Copyright © 2026{" "}
-                    <span className="text-blue-400 font-medium">Woxxin Games</span>.
+                    <span className="text-[#00E5FF] font-medium">Woxxin Games</span>.
                     View our{" "}
-                    <Link href="#" className="text-blue-400 hover:underline">
+                    <Link href="#" className="text-[#00E5FF] hover:underline">
                         Terms of Service
                     </Link>,{" "}
-                    <Link href="#" className="text-blue-400 hover:underline">
+                    <Link href="#" className="text-[#00E5FF] hover:underline">
                         Privacy Policy
                     </Link>
                 </div>

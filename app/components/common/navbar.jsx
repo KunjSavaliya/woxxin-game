@@ -14,11 +14,11 @@ export default function Navbar() {
 
     return (
         <header className="w-full flex justify-center fixed top-6 z-50">
-            <div className="w-[95%] max-w-[85rem]
+            <div className="w-[95%] max-w-[90rem]
   bg-[#6510d5]
   backdrop-blur-xl 
   rounded-full 
-  px-6 py-4 
+ p-6
   flex items-center justify-between 
   shadow-lg 
   border border-white/20">
@@ -35,13 +35,13 @@ export default function Navbar() {
 
                 {/* Desktop Menu */}
                 <nav className="hidden lg:flex items-center gap-10 font-semibold text-white text-2xl ">
-                    <button onClick={() => handleNavigation("/components/pages/about-us")} className="cursor-pointer hover:text-orange-400 transition">
+                    <button onClick={() => handleNavigation("/components/pages/about-us")} className="cursor-pointer hover:text-[#00E5FF] transition">
                         ABOUT US
                     </button>
-                    <button onClick={() => handleNavigation("/components/pages/games")} className="cursor-pointer hover:text-orange-400 transition">
+                    <button onClick={() => handleNavigation("/components/pages/games")} className="cursor-pointer hover:text-[#00E5FF] transition">
                         GAMES
                     </button>
-                    <button onClick={() => handleNavigation("/components/pages/news")} className="cursor-pointer hover:text-orange-400 transition">
+                    <button onClick={() => handleNavigation("/components/pages/news")} className="cursor-pointer hover:text-[#00E5FF] transition">
                         NEWS
                     </button>
                 </nav>
@@ -52,7 +52,7 @@ export default function Navbar() {
                         href="https://woxxin.com/"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-2xl flex items-center gap-2 bg-orange-400 text-white px-6 py-2 rounded-full font-semibold hover:scale-105 transition cursor-pointer"
+                        className="text-2xl flex items-center gap-2 bg-[#00E5FF] text-white px-6 py-2 rounded-full font-semibold hover:scale-105 transition cursor-pointer"
                     >
                         More Info
                         <span className="bg-black rounded-full p-1">
@@ -80,7 +80,7 @@ export default function Navbar() {
                                     handleNavigation("/components/pages/about-us");
                                     setIsOpen(false);
                                 }}
-                                className="cursor-pointer hover:text-orange-500 transition"
+                                className="cursor-pointer hover:text-[#00E5FF] transition"
                             >
                                 ABOUT US
                             </button>
@@ -90,7 +90,7 @@ export default function Navbar() {
                                     handleNavigation("/components/pages/games");
                                     setIsOpen(false);
                                 }}
-                                className="cursor-pointer hover:text-orange-500 transition"
+                                className="cursor-pointer hover:text-[#00E5FF] transition"
                             >
                                 GAMES
                             </button>
@@ -100,12 +100,12 @@ export default function Navbar() {
                                     handleNavigation("/components/pages/news");
                                     setIsOpen(false);
                                 }}
-                                className="cursor-pointer hover:text-orange-500 transition"
+                                className="cursor-pointer hover:text-[#00E5FF] transition"
                             >
                                 NEWS
                             </button>
                             <div className="flex justify-center ">
-                                <button className="text-2xl  flex items-center gap-2 bg-orange-400  text-white px-6 py-2 rounded-full font-semibold hover:scale-105 transition cursor-pointer">
+                                <button className="text-2xl  flex items-center gap-2 bg-[#00E5FF]  text-white px-6 py-2 rounded-full font-semibold hover:scale-105 transition cursor-pointer">
                                     More Info
                                     <span className="bg-black rounded-full p-1">
                                         <ArrowUpRight size={16} />
