@@ -10,34 +10,35 @@ import "swiper/css/navigation";
 function Aboutus() {
     return (
         <>
-            <div className="relative w-full h-[500px] sm:h-[600px] lg:h-[800px] ">
+            <div className="relative w-full">
 
                 <Image
                     src="/aboutUs/AboutUs.png"
                     alt="Background"
-                    fill
+                    width={1920}
+                    height={900}
                     priority
-                    className="object-fill"
+                    className="w-full h-[400px] sm:h-full md:h-auto object-fill "
                 />
+
                 <div className="absolute bottom-0 left-0 w-full h-[6px] 
-bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500">
+  bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500"></div>
 
-                </div>
-                <div className="absolute inset-0 flex items-center">
-                    <div className="max-w-7xl mx-auto w-full p-10">
+                <div className="absolute inset-0 flex items-center p-6 mt-24">
+                    <div className="max-w-7xl mx-auto w-full ">
 
-                        <div className="max-w-2xl text-white">
+                        <div className="max-w-4xl text-white">
 
-                            <p className="uppercase tracking-widest text-xl md:text-2xl mb-4">
-                                WE ARE HERE FOR
+                            <p className="uppercase tracking-widest text-md md:text-2xl mb-4">
+                                We Build Worlds. You Live the Adventure
                             </p>
 
-                            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold leading-tight">
-                                GROW <br /> EVERYDAY
+                            <h1 className="text-2xl sm:text-2xl md:text-4xl lg:text-5xl xl:text-7xl font-extrabold leading-tight">
+                                Innovative Games, Endless Fun, Global Community
                             </h1>
 
-                            <button className="mt-8 flex items-center gap-2 bg-orange-400 hover:scale-105  cursor-pointer px-6 md:px-8 py-3 md:py-4 rounded-lg text-base md:text-lg font-semibold transition">
-                                Learn More
+                            <button className="mt-8 flex items-center gap-2 bg-orange-400 hover:scale-105 cursor-pointer p-3 rounded-lg text-md md:text-xl font-semibold transition">
+                                Start Your Epic Journey
                                 <ArrowUpRight size={18} />
                             </button>
 
