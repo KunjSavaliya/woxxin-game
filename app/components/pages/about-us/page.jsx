@@ -276,7 +276,7 @@ bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500"></div>
                 </h2>
 
             </div>
-            <div className="">
+            {/* <div className="">
 
                 <div className="flex flex-col lg:flex-row  ">
                     <TicTacToe />
@@ -284,7 +284,7 @@ bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500"></div>
                     <SnakeGame />
                 </div>
 
-            </div>
+            </div> */}
             <section className="w-full bg-gray-200 py-12">
                 <div className="max-w-[80rem] mx-auto px-4">
 
