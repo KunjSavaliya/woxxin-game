@@ -270,12 +270,12 @@ bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500"></div>
                 </div>
 
             </section>
-            <div className="bg-[#6510d5] p-20">
+            {/* <div className="bg-[#6510d5] p-20">
                 <h2 className=" text-center text-3xl md:text-4xl lg:text-5xl font-semibold text-[#00E5FF]">
                     Let's Play Some Games!
                 </h2>
 
-            </div>
+            </div> */}
             {/* <div className="">
 
                 <div className="flex flex-col lg:flex-row  ">
