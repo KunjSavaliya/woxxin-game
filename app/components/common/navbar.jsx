@@ -9,113 +9,137 @@ export default function Navbar() {
 
     const handleNavigation = (path) => {
         router.push(path)
-        setIsOpen(false) // close mobile menu after click
+        setIsOpen(false)
     }
 
     return (
-        <header className="w-full flex justify-center fixed top-6 z-50">
-            <div className="w-[95%] max-w-[90rem]
-  bg-[#6510d5]
-  backdrop-blur-xl 
-  rounded-full 
- p-6
-  flex items-center justify-between 
-  shadow-lg 
-  border border-white/20">
+        <header className="sticky top-0 z-50 w-full">
 
-                {/* Logo */}
-                <div className="font-bold text-lg">
-                    <img
-                        src="/logo.png"
-                        alt="logo"
-                        className="cursor-pointer w-40"
-                        onClick={() => handleNavigation("/")}
-                    />
-                </div>
+            {/* FULL WIDTH BAR */}
+            <div className="
+        w-full p-3
+        bg-black backdrop-blur-xl
+        border-b border-white/10
+      ">
 
-                {/* Desktop Menu */}
-                <nav className="hidden lg:flex items-center gap-10 font-semibold text-white text-2xl ">
-                    <button onClick={() => handleNavigation("/components/pages/about-us")} className="cursor-pointer hover:text-[#00E5FF] transition">
-                        ABOUT US
-                    </button>
-                    <button onClick={() => handleNavigation("/components/pages/games")} className="cursor-pointer hover:text-[#00E5FF] transition">
-                        GAMES
-                    </button>
-                    <button onClick={() => handleNavigation("/components/pages/news")} className="cursor-pointer hover:text-[#00E5FF] transition">
-                        NEWS
-                    </button>
-                </nav>
+                {/* INNER CONTENT */}
+                <div className="
+          max-w-[1200px] mx-auto
+          px-4 md:px-8 py-3
+          flex items-center justify-between
+        ">
 
-                {/* Right Button */}
-                <div className="hidden lg:flex items-center gap-4">
-                    <a
-                        href="https://woxxin.com/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-2xl flex items-center gap-2 bg-[#00E5FF] text-white px-6 py-2 rounded-full font-semibold hover:scale-105 transition cursor-pointer"
-                    >
-                        More Info
-                        <span className="bg-black rounded-full p-1">
-                            <ArrowUpRight size={16} />
-                        </span>
-                    </a>
-                </div>
+                    {/* LEFT MENU */}
+                    <nav className="hidden lg:flex items-center gap-8 text-white text-2xl font-medium">
+                        <button onClick={() => handleNavigation("/components/pages/about-us")}
+                            className="hover:text-[#7B61FF] transition cursor-pointer">
+                            About Us
+                        </button>
 
-                {/* Mobile Toggle */}
-                <button
-                    className="lg:hidden text-white"
-                    onClick={() => setIsOpen(!isOpen)}
-                >
-                    {isOpen ? <X /> : <Menu />}
-                </button>
-            </div >
+                        <button onClick={() => handleNavigation("/components/pages/games")}
+                            className="hover:text-[#7B61FF] transition cursor-pointer">
+                            Games
+                        </button>
+                    </nav>
 
-            {/* Mobile Menu */}
-            {
-                isOpen && (
-                    <div className="absolute top-24 w-[95%] max-w-7xl bg-white rounded-3xl shadow-xl p-6 lg:hidden">
-                        <div className="flex flex-col gap-6 font-semibold text-gray-800">
-                            <button
-                                onClick={() => {
-                                    handleNavigation("/components/pages/about-us");
-                                    setIsOpen(false);
-                                }}
-                                className="cursor-pointer hover:text-[#00E5FF] transition"
-                            >
-                                ABOUT US
-                            </button>
-
-                            <button
-                                onClick={() => {
-                                    handleNavigation("/components/pages/games");
-                                    setIsOpen(false);
-                                }}
-                                className="cursor-pointer hover:text-[#00E5FF] transition"
-                            >
-                                GAMES
-                            </button>
-
-                            <button
-                                onClick={() => {
-                                    handleNavigation("/components/pages/news");
-                                    setIsOpen(false);
-                                }}
-                                className="cursor-pointer hover:text-[#00E5FF] transition"
-                            >
-                                NEWS
-                            </button>
-                            <div className="flex justify-center ">
-                                <button className="text-2xl  flex items-center gap-2 bg-[#00E5FF]  text-white px-6 py-2 rounded-full font-semibold hover:scale-105 transition cursor-pointer">
-                                    More Info
-                                    <span className="bg-black rounded-full p-1">
-                                        <ArrowUpRight size={16} />
-                                    </span>
-                                </button>
-                            </div>
-                        </div>
+                    {/* LOGO */}
+                    <div>
+                        <img
+                            src="/logo.png"
+                            alt="logo"
+                            onClick={() => handleNavigation("/components/pages/about-us")}
+                            className="w-32 md:w-46 cursor-pointer"
+                        />
                     </div>
-                )
-            }
-        </header >
+
+                    {/* RIGHT BUTTON */}
+                    <div className="hidden lg:flex items-center">
+                        <a
+                            href="https://woxxin.com/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="
+    group
+    relative
+    inline-flex items-center
+    text-white text-xl font-medium
+    px-5 py-2 pr-10
+    rounded-full
+    border border-white/40
+    hover:border-white
+    transition-all duration-300
+  "
+                        >
+                            More Info
+
+                            {/* Arrow Circle (OVERLAP BORDER) */}
+                            <span
+                                className="
+      absolute
+      -right-3   /* push outside */
+      top-1/2 -translate-y-1/2
+      w-7 h-7
+      flex items-center justify-center
+      rounded-full
+      bg-[#7B61FF]
+      border border-white/40
+      group-hover:scale-110
+      transition-all duration-300
+    "
+                            >
+                                <ArrowUpRight size={14} className="text-white" />
+                            </span>
+                        </a>
+                    </div>
+
+                    {/* MOBILE MENU ICON */}
+                    <button
+                        className="lg:hidden text-white"
+                        onClick={() => setIsOpen(!isOpen)}
+                    >
+                        {isOpen ? <X /> : <Menu />}
+                    </button>
+                </div>
+            </div>
+
+            {/* MOBILE DROPDOWN */}
+            {isOpen && (
+                <div className="
+          w-full
+          bg-black/90 backdrop-blur-xl
+          border-b border-white/10
+          px-6 py-6
+          lg:hidden
+        ">
+                    <div className="flex flex-col gap-6 text-white text-lg font-medium">
+
+                        <button onClick={() => handleNavigation("/components/pages/about-us")}>
+                            About Us
+                        </button>
+
+                        <button onClick={() => handleNavigation("/components/pages/games")}>
+                            Games
+                        </button>
+
+
+                        <a
+                            href="https://woxxin.com/"
+                            target="_blank"
+                            className="
+                flex justify-center items-center gap-2
+                bg-[#00E5FF]
+                text-black
+                py-2 rounded-full
+                font-semibold
+              "
+                        >
+                            More Info
+                            <ArrowUpRight size={16} />
+                        </a>
+
+                    </div>
+                </div>
+            )}
+        </header>
     )
 }

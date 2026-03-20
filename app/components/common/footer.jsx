@@ -1,84 +1,63 @@
 "use client";
-import { Facebook, Instagram, Twitter, Youtube } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
 export default function Footer() {
     return (
-        <>
-            <footer className="bg-[#111111] text-white pt-16 pb-6 px-6">
+        <footer className="relative bg-[#0B0B0F] text-white pt-16 pb-6 px-4 overflow-hidden">
 
-                <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12">
+            <div className="max-w-5xl mx-auto text-center">
 
-                    {/* LEFT SECTION */}
-                    <div>
-                        {/* Logo */}
-                        <div className="flex items-center gap-3 mb-6">
-                            <Image
-                                src="/logo.png"   // Put your logo in public folder
-                                alt="woxxin Games"
-                                width={250}
-                                height={120}
-                            />
-
-                        </div>
-
-                        {/* Description */}
-                        <p className="text-gray-300 leading-relaxed mb-6 max-w-xl text-xl">
-                            Woxxin Games is a mobile game publisher located in Surat, India.
-                            We established in the year 2021. Our goal is to provide entertainment
-                            to people through our games.
-                        </p>
-
-                        {/* Social Icons */}
-                        <div className="flex gap-6">
-                            <Link href="#" className="hover:text-blue-500 transition">
-                                <Facebook size={22} />
-                            </Link>
-                            <Link href="#" className="hover:text-pink-500 transition">
-                                <Instagram size={22} />
-                            </Link>
-                            <Link href="#" className="hover:text-sky-400 transition">
-                                <Twitter size={22} />
-                            </Link>
-                            <Link href="https://www.youtube.com/channel/UCJJOqSmgPQuQiGoCVGdAWZQ" className="hover:text-red-500 transition">
-                                <Youtube size={22} />
-                            </Link>
-                        </div>
-                    </div>
-
-                    {/* RIGHT SECTION */}
-                    <div className="md:pl-24">
-                        <h3 className="text-2xl font-semibold mb-6">
-                            Important Links
-                        </h3>
-
-                        <ul className="space-y-3 text-gray-300">
-                            <li><Link href="/components/pages/about-us" className="hover:text-[#00E5FF] transition">About Us</Link></li>
-                            <li><Link href="/components/pages/games" className="hover:text-[#00E5FF] transition">Games</Link></li>
-
-                            <li><Link href="/components/pages/news" className="hover:text-[#00E5FF] transition">News</Link></li>
-
-                            <li><Link href="/components/pages/privacy-policy" className="hover:text-[#00E5FF] transition">Privacy Policy</Link></li>
-                            <li><Link href="/components/pages/terms-condition" className="hover:text-[#00E5FF] transition">Terms and Condition</Link></li>
-                        </ul>
-                    </div>
+                {/* LOGO */}
+                <div className="flex justify-center mb-6">
+                    <Image
+                        src="/logo.png"
+                        alt="logo"
+                        width={220}
+                        height={100}
+                    />
                 </div>
 
-                {/* Divider */}
-                <div className="border-t border-gray-800 mt-12 pt-6 text-center text-gray-400 text-sm">
-                    Copyright © 2026{" "}
-                    <span className="text-[#00E5FF] font-medium">Woxxin Games</span>.
-                    View our{" "}
-                    <Link href="#" className="text-[#00E5FF] hover:underline">
-                        Terms of Service
-                    </Link>,{" "}
-                    <Link href="#" className="text-[#00E5FF] hover:underline">
-                        Privacy Policy
-                    </Link>
+                {/* DESCRIPTION */}
+                <p className="text-gray-300 text-sm sm:text-base md:text-lg leading-relaxed max-w-2xl mx-auto">
+                    Woxxin Games is a mobile game publisher located in Surat, India. We established in the year 2021. Our goal is to provide entertainment to people through our games.
+                </p>
+
+                {/* SOCIAL LINKS (TEXT STYLE) */}
+                <div className="flex justify-center gap-6 mt-8 text-gray-400 text-sm uppercase tracking-wide">
+                    <Link href="#" className="hover:text-white transition">Youtube</Link>
+                    <Link href="#" className="hover:text-white transition ">Instagram</Link>
                 </div>
 
-            </footer>
-        </>
+            </div>
+
+            {/* 🐝 BEE IMAGE */}
+            <div className="absolute right-4 bottom-16 hidden md:block">
+                <Image
+                    src="/honey.png"   // 👈 add your bee image
+                    alt="bee"
+                    width={100}
+                    height={100}
+                />
+            </div>
+
+            {/* 🔻 BOTTOM BAR */}
+            <div className="border-t border-gray-800 mt-12 pt-6 flex flex-col md:flex-row items-center justify-between text-gray-400 text-sm max-w-7xl mx-auto">
+
+                {/* LEFT */}
+                <div className="flex gap-6 mb-4 md:mb-0">
+                    <Link href="/components/pages/privacy-policy" className="hover:text-white">Privacy Policy</Link>
+                    <Link href="/components/pages/terms-condition" className="hover:text-white">Terms and Condition</Link>
+                </div>
+
+                {/* RIGHT */}
+                <div>
+                    Copyright ©  {new Date().getFullYear()}{" "}
+                    <span className="text-[#AFAEFF]">Woxxin Games</span>.
+                </div>
+
+            </div>
+
+        </footer>
     );
 }

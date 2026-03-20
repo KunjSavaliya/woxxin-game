@@ -1,5 +1,5 @@
 "use client";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Plus, Minus } from "lucide-react";
 
 const sections = [
@@ -9,7 +9,7 @@ const sections = [
         content: (
             <>
 
-                Woxxin Solutions (a company registered in India (registration number 000000000), whose registered office is at C 000,  Varachha, Surat-395006, Gujrat, India) is the data controller of the personal information that we collect from you. Artoon Solutions are referred to in this Privacy Policy as “Artoon Solutions”, “us”, “we” or “our”. <br /><br />
+                Woxxin Solutions (a company registered in India (registration number 000000000), whose registered office is at C 000,  Varachha, Surat-395006, Gujrat, India) is the data controller of the personal information that we collect from you. Woxxin Solution are referred to in this Privacy Policy as “Woxxin Solution”, “us”, “we” or “our”. <br /><br />
                 <span>  We are committed to providing fun and exciting digital entertainment. This Privacy Policy explains how and what personal data relating to you
                     we may use in relation to our main website{" "}
 
@@ -31,7 +31,7 @@ const sections = [
                 This Privacy Policy governs the collection, storage and use of personal information by us via our websites, apps and Services. It provides you with details about the personal information we collect from you, how we use your personal information, and your rights regarding the personal information we hold about you. Please read this Privacy Policy carefully.
                 <br /><br />
 
-                <span className="text-black font-bold text-xl mb-5">Third party sites:-</span> <br /><br /> <span>Please note that the Services may contain links to websites or other services owned and operated by third parties.We do not endorse any such third - party services.We are not responsible or liable for anything that happens to you when you visit or use these services.Artoon Solutions strongly recommends that you review the privacy policies and cookie usage of these third parties</span>
+                <span className="text-white font-light text-xl mb-5">Third party sites:-</span> <br /><br /> <span>Please note that the Services may contain links to websites or other services owned and operated by third parties.We do not endorse any such third - party services.We are not responsible or liable for anything that happens to you when you visit or use these services.Woxxin Solution strongly recommends that you review the privacy policies and cookie usage of these third parties</span>
 
 
             </>
@@ -40,30 +40,30 @@ const sections = [
     },
     {
         id: "data",
-        title: "What data does Artoon Solutions collect from you?",
+        title: "What data does Woxxin Solution collect from you?",
         content: (<>
             In this Privacy Policy, “data” means any personal data about you which could identify you (by itself or in combination with other data) such as your name, address, email address or an online identifier.
             <br /><br />
-            We collect data about you in a number of different ways. In this section, we explain the different ways we collect personal data about you and the ways in which that information will be used. For more detail on how we use your data, please see the section titled ” What does Artoon Solutions do with this data?
+            We collect data about you in a number of different ways. In this section, we explain the different ways we collect personal data about you and the ways in which that information will be used. For more detail on how we use your data, please see the section titled ” What does Woxxin Solution do with this data?
             <br /><br />
             We will usually collect and store the following data about you when you access and use our Services:
             <br /><br />
-            <span className="text-black font-bold text-xl mb-5">Data you give us directly:-
+            <span className="text-white font-light text-xl mb-5">Data you give us directly:-
             </span> <br /><br />
-            <span className="font-bold"> Note:</span> All the collected data will be sent to <a href="http://www.gamewithpals.com/" className="text-blue-500 underline hover:text-blue-700">
+            <span className="font-light"> Note:</span> All the collected data will be sent to <a href="http://www.gamewithpals.com/" className="text-blue-500 underline hover:text-blue-700">
                 www.gamewithpals.com
             </a> and all subsidiary domains (*.gamewithpals.com) for storing it. The main purpose behind collecting data is to authenticate users and keep record of user’s app/game progress.
             <br /><br />
-            If you register an account with us directly on our Services, we will collect your date of birth, location, username, avatar, password and email address; <br /> <br />If you enter into any competitions or complete any surveys on our apps or websites, or when using any of our Services, we will collect and store the data you submit to us, including your name and contact details as well as information on your game scores and ranking in any competition;<br /><br />When you complete any in -app or in -game purchases, such as buying in -game currency and other items, we will collect data relating to your purchase history;<br /><br />When you participate in any Artoon Solutions chat forums on our Services, we will collect your username, email address and any data that you share within your messages posted to that forum; and < br /> <br />We will also collect information you provide to us if you raise a complaint, ask for technical support or report a problem with any of our Services, including when you contribute to or post on our our Community pages.< br /> <br />Data we may collect when you use our Services(whether or not you register with us):<br /><br />Data about your location, device type and model, operating system and version and platform, and any apps you are using in conjunction with our Services;<br /><br />Data about your device’s browser version, page loading time, mobile phone network and operator, generated device identifier information, referral source and IP address;<br /><br />Data generated when you play our games, such as the game version you are playing, your high score, log -in method, VIP level and rankings;<br /><br />Data relating to your game play history on our Services, including any purchases made;<br /><br />The number of times you visit or use any of our Services and the amount of time you spend using the Services; and < br /> <br />Where you are accessing our Services through a third - party account such as Facebook or Google, we will collect certain information relating to your account with those third parties including your name, user ID, location(country and / or city specific), email address, date of birth, information from your public profile including friends and connections, log in details, avatar and other information based on your use of our Services.You can manage the data which is shared by such third parties with us by amending your preferences using the privacy settings which these third parties provide on their platforms.<br /><br />We will sometimes use third party advertising companies to help us collect this data.Further information is provided below in the section titled “Third party advertising companies”.
+            If you register an account with us directly on our Services, we will collect your date of birth, location, username, avatar, password and email address; <br /> <br />If you enter into any competitions or complete any surveys on our apps or websites, or when using any of our Services, we will collect and store the data you submit to us, including your name and contact details as well as information on your game scores and ranking in any competition;<br /><br />When you complete any in -app or in -game purchases, such as buying in -game currency and other items, we will collect data relating to your purchase history;<br /><br />When you participate in any Woxxin Solution chat forums on our Services, we will collect your username, email address and any data that you share within your messages posted to that forum; and < br /> <br />We will also collect information you provide to us if you raise a complaint, ask for technical support or report a problem with any of our Services, including when you contribute to or post on our our Community pages.< br /> <br />Data we may collect when you use our Services(whether or not you register with us):<br /><br />Data about your location, device type and model, operating system and version and platform, and any apps you are using in conjunction with our Services;<br /><br />Data about your device’s browser version, page loading time, mobile phone network and operator, generated device identifier information, referral source and IP address;<br /><br />Data generated when you play our games, such as the game version you are playing, your high score, log -in method, VIP level and rankings;<br /><br />Data relating to your game play history on our Services, including any purchases made;<br /><br />The number of times you visit or use any of our Services and the amount of time you spend using the Services; and < br /> <br />Where you are accessing our Services through a third - party account such as Facebook or Google, we will collect certain information relating to your account with those third parties including your name, user ID, location(country and / or city specific), email address, date of birth, information from your public profile including friends and connections, log in details, avatar and other information based on your use of our Services.You can manage the data which is shared by such third parties with us by amending your preferences using the privacy settings which these third parties provide on their platforms.<br /><br />We will sometimes use third party advertising companies to help us collect this data.Further information is provided below in the section titled “Third party advertising companies”.
         </>),
 
 
     },
     {
         id: "protect",
-        title: "What does Artoon Solutions do with this data and what is our legal basis for processing this data?",
+        title: "What does Woxxin Solution do with this data and what is our legal basis for processing this data?",
         content: (<>
-            <span className="text-black font-bold text-xl mb-5">Use of data which is necessary to perform a contract:-
+            <span className="text-white font-light text-xl mb-5">Use of data which is necessary to perform a contract:-
             </span> <br /><br />
             We collect, store and use certain data as it is necessary in order for us to provide you with access to our Services under the relevant terms and conditions of those Services. This includes:
             <br /><br />
@@ -75,7 +75,7 @@ const sections = [
             <br /><br />
             To moderate any chat messages in chat forums, in order to restrict access to harmful, infringing or illegal content; and to process any refunds requested by you.
             <br /><br />
-            <span className="text-black font-bold text-xl mb-5">This applies to the following data:-
+            <span className="text-white font-light text-xl mb-5">This applies to the following data:-
             </span> <br /><br />
             Your username and password in order to allow you to log-in to your account for any of our Services from any device;
             <br /><br />
@@ -89,7 +89,7 @@ const sections = [
             <br /><br />
             Sometimes, our use of your data is for purposes which are ancillary to the provision of the Services, or which are desirable in order to make them operate more effectively. In those circumstances, we believe we have a legitimate interest in handling your data, and do not believe that this storage and use of your data will be of particular concern to you.
             <br /><br />
-            <span className="text-black font-bold text-xl mb-5">We use your data for our legitimate interests in the following ways:
+            <span className="text-white font-light text-xl mb-5">We use your data for our legitimate interests in the following ways:
             </span> <br /><br />
             To detect and prevent fraud, hacking and/or cheating;
             <br /><br />
@@ -117,7 +117,7 @@ const sections = [
             <br /><br />
             to provide you with any customer support you have requested.
             <br /><br />
-            <span className="text-black font-bold text-xl mb-5">Data we use with your consent
+            <span className="text-white font-light text-xl mb-5">Data we use with your consent
             </span> <br /><br />
             We collect, store and use your email address, if you have provided your consent, in order to send to you promotional offers and provide marketing for Services that we believe may be of interest to you (see below for details of our marketing communications). We also use your data to offer you other Services which we think may be of interest to you by email where you have given your consent.
             <br /><br />
@@ -125,16 +125,16 @@ const sections = [
             <br /><br />
             You can withdraw your consent at any point using the privacy settings available on our apps, and in your profile settings available on our websites, which means you will no longer receive these marketing messages.
             <br /><br />
-            <span className="text-black font-bold text-xl mb-5">Anonymous data
+            <span className="text-white font-light text-xl mb-5">Anonymous data
             </span> <br /><br />
             We will also collect anonymised details about visitors to and use of our Services for the purposes of creating aggregate statistics or reporting purposes. However, no single individual will be identifiable from the anonymised details we collect for these purposes.
         </>)
     },
     {
         id: "marketing",
-        title: "Does Artoon Solutions send marketing communications and how can I opt out?",
+        title: "Does Woxxin Solution send marketing communications and how can I opt out?",
         content: (<>
-            If you have provided your consent, we may send you marketing communications in relation to our other Services that we think may be of interest to you via email. These messages will only ever be in relation to the named other similar Services of Artoon Solutions that you have provided your consent to receive. We do not provide your data to third parties so that they can send you direct marketing communications via email or push notification without first obtaining your consent. Please also see the section below regarding third party advertising for more information about advertising activities on our Services involving third parties.
+            If you have provided your consent, we may send you marketing communications in relation to our other Services that we think may be of interest to you via email. These messages will only ever be in relation to the named other similar Services of Woxxin Solution that you have provided your consent to receive. We do not provide your data to third parties so that they can send you direct marketing communications via email or push notification without first obtaining your consent. Please also see the section below regarding third party advertising for more information about advertising activities on our Services involving third parties.
             <br /><br />
             You can opt-out of receiving any direct marketing communications that we (or any third party to whom we have disclosed your personal information with your consent) may send you by using the unsubscribe mechanism in those marketing emails, or, in relation to push notifications, by choosing not to accept them or by turning them off by visiting the settings on your device and selecting the appropriate setting.
 
@@ -142,7 +142,7 @@ const sections = [
     },
     {
         id: "protectData",
-        title: "What does Artoon Solutions do to protect data?",
+        title: "What does Woxxin Solution do to protect data?",
         content: (<>
             We have implemented appropriate physical, electronic and managerial security procedures to safeguard the data we process from loss, misuse, and alteration and to help prevent unauthorised access, maintain data security and to ensure that we correctly use the data we hold in accordance with the purposes for which we collected that data.
             <br /><br />
@@ -153,16 +153,16 @@ const sections = [
     },
     {
         id: "keepHold",
-        title: "How long does Artoon Solutions keep hold of data?",
+        title: "How long does Woxxin Solution keep hold of data?",
         content: (<>
-            We will keep data only for as long as it is relevant and useful for the purpose for which it was originally collected and otherwise where required by law. This means that we will only retain your data for the minimum reasonable time period to allow us to provide our Services to you. If you decide to delete an account you have with us, certain data does stay on our Artoon Solutions system for administrative purposes and to defend or bring any legal action. Please email us at support@artoongames.com for information regarding retention periods.
+            We will keep data only for as long as it is relevant and useful for the purpose for which it was originally collected and otherwise where required by law. This means that we will only retain your data for the minimum reasonable time period to allow us to provide our Services to you. If you decide to delete an account you have with us, certain data does stay on our Woxxin Solution system for administrative purposes and to defend or bring any legal action. Please email us at support@artoongames.com for information regarding retention periods.
         </>)
     },
     {
         id: "thirdParty",
         title: "What data is shared with or accessed by third parties?",
         content: (<>
-            Artoon Solutions will share your data with various third parties (including our affiliate companies in other countries) as follows:
+            Woxxin Solution will share your data with various third parties (including our affiliate companies in other countries) as follows:
             <br /><br />
             We use third parties to help us manage your information and the Services, such as our cloud service provider, customer service and technical support provider, software and game developers, marketing delivery companies and IT maintenance providers. These are companies who are authorised to process data on our behalf only as necessary to provide the relevant services to us and cannot use it for their own independent purposes.
             <br /><br />
@@ -174,18 +174,18 @@ const sections = [
             <br /><br />
             We or our third-party partners may disclose your personal data where we are required or permitted to do so by law or to protect or enforce our rights or the rights of any third party. We may also share your data with third parties to prevent fraud, abusive or unlawful behaviour or to demonstrate our compliance with other terms or laws.
             <br /><br />
-            Artoon Solutions may disclose your information to third parties in connection with a purchase, transfer or sale of Artoon Solutions.
+            Woxxin Solution may disclose your information to third parties in connection with a purchase, transfer or sale of Woxxin Solution.
             <br /><br />
             If you choose to access any Services through a third party platform such as Facebook or Google, then that third party may collect other information about you (including about your use of the Services) in accordance with its terms and own privacy policy and sometimes they share some data with us. They have their own privacy settings which you can access on that third party platform in order to change your preferences.
             <br /><br />
             We require any third parties processing your data on our behalf to process it in accordance with your rights, our instructions and applicable law.
             <br /><br />
-            <span className="text-black font-bold text-xl mb-5">Third party advertising companies:-</span> <br /><br />
+            <span className="text-white font-light text-xl mb-5">Third party advertising companies:-</span> <br /><br />
             We want to make sure that our advertising and marketing is relevant and interesting to you and our other customers.
             <br /><br />
-            To achieve this, we use third-party advertising and technology companies to serve ads and/or provide aggregated data to assist in serving ads when you visit or use our Services. This includes third party technology companies which collect data about you in order to build a profile of your preferences based on your activities when you visit or use our Services. We also use these companies to automatically collect data from you when you use our Services in order to help us identify the ads that are served to you and what you do after seeing those ads. In addition, we share data with providers of web analytics tools, such as Google Analytics, which we use to analyse your use of the Services. A list of the third party advertising and technology companies that we use, and links to their privacy information, is available here: List of advertising partners used in Artoon Solutions’s games.
+            To achieve this, we use third-party advertising and technology companies to serve ads and/or provide aggregated data to assist in serving ads when you visit or use our Services. This includes third party technology companies which collect data about you in order to build a profile of your preferences based on your activities when you visit or use our Services. We also use these companies to automatically collect data from you when you use our Services in order to help us identify the ads that are served to you and what you do after seeing those ads. In addition, we share data with providers of web analytics tools, such as Google Analytics, which we use to analyse your use of the Services. A list of the third party advertising and technology companies that we use, and links to their privacy information, is available here: List of advertising partners used in Woxxin Solution’s games.
             <br /><br />
-            These third party advertising companies collect, store and use data by integrating cookies, tracking code and other software in our Services. The relevant data collected by these third parties includes a unique device ID, geo-location details and your assigned Artoon Solutions user ID. Data which you provide to Artoon Solutions when using our Services may also be captured by these third parties. The data collected by these third parties will vary, but may include your location, advertising ID, IP address, information on your interaction with advertising, browsing history and other technical information.
+            These third party advertising companies collect, store and use data by integrating cookies, tracking code and other software in our Services. The relevant data collected by these third parties includes a unique device ID, geo-location details and your assigned Woxxin Solution user ID. Data which you provide to Woxxin Solution when using our Services may also be captured by these third parties. The data collected by these third parties will vary, but may include your location, advertising ID, IP address, information on your interaction with advertising, browsing history and other technical information.
             <br /><br />
             These third party advertising companies will collect and use your data to provide you with more targeted advertising that is relevant to you and your preferences with your consent. You can control and withdraw your consent at any time by visiting the game settings page or your profile page available on our Services. If you do not provide or withdraw your consent to receive targeted advertising that is relevant to you and your preferences, or if we know you are under the age of 16, then we will still serve you advertising when you visit or use our Services but this will no longer be tailored to you or your preferences.
             <br /><br />
@@ -200,7 +200,7 @@ const sections = [
         id: "overseas",
         title: "Will data be transferred overseas?",
         content: (<>
-            The data that we collect from you will be transferred to, and stored at, a destination outside of the India, including the US (where some of our third-party cloud-based servers are based). It may also be processed by other Artoon Solutions group companies or by one of our third-party partners operating outside of the India. This transfer is required to host the Services, provide you with technical and customer support services, perform backups of your data, and to process your payment details if you make any in game purchases.
+            The data that we collect from you will be transferred to, and stored at, a destination outside of the India, including the US (where some of our third-party cloud-based servers are based). It may also be processed by other Woxxin Solution group companies or by one of our third-party partners operating outside of the India. This transfer is required to host the Services, provide you with technical and customer support services, perform backups of your data, and to process your payment details if you make any in game purchases.
             <br /><br />
             When you use our Services, your personal information may be sent to the United States and possibly other countries. When we transfer, store, and use personal information collected in the European Countries outside of the European Countries, we comply with our legal obligations and ensure that your personal information is subject to suitable safeguards or transferred to “approved” territories.
             <br /><br />
@@ -248,13 +248,13 @@ const sections = [
             <br />,<br />
             Please also note that certain records, for example, those relating to payments or customer service matters, will be held for legal and accounting purposes. If you have sent content through or posted content on the Service, we may not be able to delete it.
             <br /><br />
-            <span className="text-black font-bold text-xl mb-5">1. Email Communications</span> <br /><br />
+            <span className="text-white font-light text-xl mb-5">1. Email Communications</span> <br /><br />
             If you receive an unwanted email from us, you can use the unsubscribe link at the bottom of the email to opt out of receiving future emails. We will process your request within a reasonable time after receipt. Note that you will continue to receive transaction-related emails regarding products or Services you have requested.
             <br /><br />
-            <span className="text-black font-bold text-xl mb-5">2. Mobile devices</span> <br /><br />
+            <span className="text-white font-light text-xl mb-5">2. Mobile devices</span> <br /><br />
             Artoon may occasionally send you push notifications through our mobile applications with game updates, high scores and other notices that may be of interest to you. You may at any time opt out from receiving these types of communications by changing the settings on your mobile device. Artoon may also collect location-based information if you use our mobile applications. You can opt out of this collection by changing the settings on your mobile device.
             <br /><br />
-            <span className="text-black font-bold text-xl mb-5">3. Cookies and internet-based or targeted advertising</span> <br /><br />
+            <span className="text-white font-light text-xl mb-5">3. Cookies and internet-based or targeted advertising</span> <br /><br />
             As noted, you may stop or restrict the placement of Cookies on your computer or remove them from your browser by adjusting your web browser preferences.
             <br /><br />
             The online advertising industry also provides websites from which you may opt out of receiving targeted ads from our data partners and our other advertising partners that participate in self-regulatory programs. You can also choose not to be included in Google Analytics  <a href="https://chromewebstore.google.com/detail/google-analytics-opt-out/fllaojicojecljbmefodhfapmkghcbnh?hl=en" className="text-blue-500 underline hover:text-blue-700">
@@ -273,10 +273,10 @@ const sections = [
         content: (<>
             You have the right to request access to and rectification or erasure of Personal Information. You can manage your information as described in this Privacy Policy, and you may have additional rights related to that information as described below. You can exercise these rights by opening a help ticket directly in-game via the ‘Help’ section, or by emailing Artoon at support@artoongames.com. Please note that we will need sufficient information establishing your identity in order for us to fulfill your request. Where we can validate your identity, we will process any such request within a reasonable timeframe and in accordance with applicable law.
             <br /><br />
-            <span className="text-black font-bold text-xl mb-5">1. Accessing, Updating, or Correcting Your Data</span> <br /><br />
+            <span className="text-white font-light text-xl mb-5">1. Accessing, Updating, or Correcting Your Data</span> <br /><br />
             You are expected to maintain accurate, complete, and up-to-date information in connection with your account, but we provide you functionality to update or correct your information directly in-app. You can also access a range of information in-app, including things like your user name, picture or avatar, game performance and progress, virtual items, chats, or other information you may have entered in-app. For any information that you are not able to access or update directly, please open an in-game help ticket via the ‘Help’ section for that particular game, or contact support@artoongames.com.
             <br /><br />
-            <span className="text-black font-bold text-xl mb-5">2. Deletion of Your Data</span> <br /><br />
+            <span className="text-white font-light text-xl mb-5">2. Deletion of Your Data</span> <br /><br />
             You have the right to request deletion of your personal information, subject to our data retention policy mentioned below. If you would like to have your personal information deleted with respect to any games you’ve played, please open an in-game help ticket via the ‘Help’ section for that game. If you have played multiple Artoon games and want to have your personal information deleted as to all of them, please open a help ticket directly in-game via the ‘Help’ section for each of those games, or contact support@artoongames.com for help. Please note that if you delete your personal information, you may no longer use or access the Services, and that if you share devices with someone else who uses the Services, that person may lose game progress or related account information and access. If you decide to use or access the Services again, Artoon may consider this a new account and may collect personal information associated with that account in accordance with this Privacy Policy.
 
         </>)
@@ -341,7 +341,7 @@ const sections = [
     },
     {
         id: "contact",
-        title: "How can I contact Artoon Solutions?",
+        title: "How can I contact Woxxin Solution?",
         content: (<>
             If you have any questions about this Privacy Policy or wish to request a copy of the data which we hold about you, please contact our Data Protection Officer at support@artoongames.com.
 
@@ -351,9 +351,9 @@ const sections = [
         id: "complaint",
         title: "What can I do if I have a complaint?",
         content: (<>
-            If you are not satisfied with the way your query or complaint is handled by Artoon Solutions, please let us know by emailing us at support@artoongames.com.
+            If you are not satisfied with the way your query or complaint is handled by Woxxin Solution, please let us know by emailing us at support@artoongames.com.
             <br /><br />
-            List of advertising partners used in Artoon Solutions’s games
+            List of advertising partners used in Woxxin Solution’s games
 
             <br /><br />
             As set out in our Privacy Policy, the following advertising partners are integrated into some or all of our games. These advertising partners may process personal data of our end users in accordance with our Privacy Policy.
@@ -367,16 +367,22 @@ const sections = [
 export default function PrivacyPolicy() {
     const [openIndex, setOpenIndex] = useState(null);
 
+    useEffect(() => {
+        document.title = "Privacy Policy - Woxxin Games";
+    }, []);
+
     const toggle = (index) => {
         setOpenIndex(openIndex === index ? null : index);
     };
+
+
 
     return (
         <section className=" min-h-screen pt-28 pb-20 px-4 md:px-6">
             <div className="max-w-7xl mx-auto mt-5">
 
                 {/* PAGE TITLE */}
-                <h1 className="text-black text-4xl font-bold mb-10 hidden lg:block">
+                <h1 className="text-white  text-4xl font-light mb-10 hidden lg:block">
                     Privacy Policy
                 </h1>
 
@@ -389,10 +395,10 @@ export default function PrivacyPolicy() {
                         <div className="hidden lg:block space-y-12">
                             {sections.map((section) => (
                                 <div key={section.id} id={section.id}>
-                                    <h2 className="text-2xl font-semibold mb-4 text-black">
+                                    <h2 className="text-2xl font-light mb-4 text-white">
                                         {section.title}
                                     </h2>
-                                    <p className="text-gray-700 leading-relaxed">
+                                    <p className="text-[#dadada] leading-relaxed">
                                         {section.content}
                                     </p>
 
@@ -411,7 +417,7 @@ export default function PrivacyPolicy() {
                                         onClick={() => toggle(index)}
                                         className="w-full flex justify-between items-center text-left"
                                     >
-                                        <h2 className="text-xl font-semibold">
+                                        <h2 className="text-xl font-light">
                                             {section.title}
                                         </h2>
 
@@ -436,27 +442,28 @@ export default function PrivacyPolicy() {
                     </div>
 
                     {/* ================= RIGHT TABLE OF CONTENT ================= */}
-                    <div className="hidden lg:block">
-                        <div className="bg-[#3e4563] text-white rounded-xl p-6 
-                  sticky top-1/2 -translate-y-1/2">
-
-                            <h3 className="text-2xl font-semibold mb-6">
+                    {/* ================= RIGHT TABLE OF CONTENT ================= */}
+                    <div className="w-auto hidden lg:block">
+                        <div className="
+    bg-[#3e4563] text-white rounded-xl p-6
+    lg:sticky lg:top-24
+  ">
+                            <h3 className="text-xl md:text-2xl font-light mb-4 md:mb-6">
                                 Table of Contents
                             </h3>
 
-                            <ul className="space-y-4 text-sm">
+                            <ul className="space-y-3 md:space-y-4 text-sm md:text-base">
                                 {sections.map((section, index) => (
                                     <li key={index}>
                                         <a
                                             href={`#${section.id}`}
-                                            className="hover:text-yellow-300 transition"
+                                            className="hover:text-yellow-300 transition block"
                                         >
                                             {index + 1}. {section.title}
                                         </a>
                                     </li>
                                 ))}
                             </ul>
-
                         </div>
                     </div>
                 </div>

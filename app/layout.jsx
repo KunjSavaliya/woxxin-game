@@ -4,8 +4,8 @@ import "./globals.css";
 import { Wendy_One } from "next/font/google";
 
 export const metadata = {
-  title: "Gaming Website",
-  description: "Best Gaming Experience",
+  title: "Woxxin Games | Next-Generation Gaming Experiences",
+  description: "Crafting immersive, high-performance games designed to entertain, engage, and deliver unforgettable digital adventures.",
 };
 
 const wendyOne = Wendy_One({
