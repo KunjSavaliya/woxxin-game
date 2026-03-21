@@ -12,7 +12,7 @@ function Games() {
         <>
             <section className="w-full  text-white ">
 
-                <div className="max-w-7xl mx-auto">
+                <div className="max-w-7xl mx-auto mt-10 md:mt-5">
 
                     {/* HEADING */}
                     <div className="text-center px-4 md:px-10 py-12 md:py-20">
@@ -32,7 +32,7 @@ function Games() {
                             width={1400}
                             height={600}
                             priority
-                            className="w-full h-auto object-contain"
+                            className="w-full h-full object-contain"
                         />
                     </div>
                     <div className="relative w-full ">
@@ -42,7 +42,7 @@ function Games() {
                             width={1400}
                             height={600}
                             priority
-                            className="w-full h-auto object-contain"
+                            className="w-full h-full object-contain"
                         />
                     </div>
                     <div className="relative w-full ">
@@ -52,7 +52,7 @@ function Games() {
                             width={1400}
                             height={600}
                             priority
-                            className="w-full h-auto object-contain"
+                            className="w-full h-full object-contain"
                         />
                     </div>
                     <div className="relative w-full ">
@@ -62,7 +62,7 @@ function Games() {
                             width={1400}
                             height={600}
                             priority
-                            className="w-full h-auto object-contain"
+                            className="w-full h-full object-contain"
                         />
                     </div>
                     <div className="relative w-full ">
@@ -72,7 +72,7 @@ function Games() {
                             width={1400}
                             height={600}
                             priority
-                            className="w-full h-auto object-contain"
+                            className="w-full h-full object-contain"
                         />
                     </div>
                     <div className="relative w-full ">
@@ -82,7 +82,7 @@ function Games() {
                             width={1400}
                             height={600}
                             priority
-                            className="w-full h-auto object-contain"
+                            className="w-full h-full object-contain"
                         />
                     </div>
                     <div className="relative w-full ">
@@ -92,7 +92,7 @@ function Games() {
                             width={1400}
                             height={600}
                             priority
-                            className="w-full h-auto object-contain"
+                            className="w-full h-full object-contain"
                         />
                     </div>
                 </div>

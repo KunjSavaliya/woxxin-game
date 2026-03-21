@@ -31,7 +31,7 @@ function Aboutus() {
                     {/* 🔹 TOP CONTENT (TEXT ONLY) */}
                     <div className="text-center md:text-left">
 
-                        <h1 className="font-extrabold leading-[1.1] tracking-wide">
+                        <h1 className="font-extrabold leading-[1.1] tracking-wide mt-10 md:mt-5">
                             <span className="block text-[46px] sm:text-[50px] md:text-[70px] lg:text-[85px] bg-gradient-to-r from-[#FFFFFF] to-[#AAA7FE] bg-clip-text text-transparent">
                                 EXPLORE ICONIC GAMES
                             </span>
@@ -84,7 +84,7 @@ function Aboutus() {
                                 width={600}
                                 height={600}
                                 priority
-                                className="w-[280px]  md:w-[500px] object-contain z-1"
+                                className="w-[320px] md:w-[500px] lg:w-[600px] xl:w-[650px] 2xl:w-[700px] object-contain z-1"
                             />
                         </div>
 
@@ -92,17 +92,81 @@ function Aboutus() {
 
                 </div>
             </section>
-            <section className="relative  overflow-hidden md:-mt-44 xl:-mt-46">
-                <div className="">
-                    <div className="relative w-full">
+            {/* ///code1 */}
+
+            <section className="hidden md:block relative overflow-hidden md:-mt-[160px] lg:-mt-[180px] xl:-mt-[190px] 2xl:-mt-[212px]">
+                <div className="relative w-full">
+                    <Image
+                        src="/dino.png"
+                        alt="vision mission"
+                        width={1400}
+                        height={600}
+                        priority
+                        className="w-full h-full object-contain"
+                    />
+                </div>
+            </section>
+            {/* ///code2 */}
+
+            <section className="md:hidden relative w-full py-16 overflow-hidden">
+
+                {/* BACKGROUND IMAGE */}
+                <Image
+                    src="/BGSlide.png"
+                    alt="background"
+                    fill
+                    priority
+                    className="object-fill -z-10"
+                />
+
+                <div className="max-w-7xl mx-auto flex flex-col items-center gap-10 mt-10 mb-10 px-4">
+
+                    {/* IMAGE */}
+                    <div className="flex justify-center">
                         <Image
-                            src="/dino.png"   // 👈 your full design image
-                            alt="vision mission"
-                            width={1400}
+                            src="/dino1.png"
+                            alt="character"
+                            width={600}
                             height={600}
+                            className="w-[280px]  object-contain mt-5"
                             priority
-                            className="w-full h-auto object-contain"
                         />
+                    </div>
+
+                    {/* CONTENT */}
+                    <div className="w-full space-y-8 text-center mb-5">
+
+                        {/* OUR VISIONS */}
+                        <div>
+                            <h2 className="text-white text-xl font-bold tracking-wide">
+                                OUR{" "}
+                                <span className="bg-gradient-to-r from-[#FFFFFF] to-[#AAA7FE] bg-clip-text text-transparent">
+                                    VISIONS
+                                </span>
+                            </h2>
+                            <p className="mt-3 text-gray-400 text-md leading-relaxed">
+                                To become a leading force in the gaming industry, elevating India’s
+                                game development to the global stage.
+                            </p>
+                        </div>
+
+                        {/* Divider */}
+                        <div className="w-full h-[1px] bg-gray-700"></div>
+
+                        {/* OUR MISSION */}
+                        <div>
+                            <h2 className="text-white text-xl font-bold tracking-wide">
+                                OUR{" "}
+                                <span className="bg-gradient-to-r from-[#FFFFFF] to-[#AAA7FE] bg-clip-text text-transparent">
+                                    MISSION
+                                </span>
+                            </h2>
+                            <p className="mt-3 text-gray-400 text-md leading-relaxed">
+                                To deliver high-quality gaming experiences and connect players
+                                around the world through innovative and engaging games.
+                            </p>
+                        </div>
+
                     </div>
                 </div>
             </section>
@@ -222,8 +286,8 @@ function Aboutus() {
                         }}
                         breakpoints={{
                             0: { slidesPerView: 1 },
-                            380: { slidesPerView: 2 },
-                            640: { slidesPerView: 3 },
+                            490: { slidesPerView: 2 },
+                            700: { slidesPerView: 3 },
                             1024: { slidesPerView: 3 },
                         }}
                     >

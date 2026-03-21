@@ -384,7 +384,7 @@ const sections = [
 function TermsCondition() {
     const [openIndex, setOpenIndex] = useState(null);
     useEffect(() => {
-        document.title = "Terms Condition- Woxxin Games";
+        document.title = "Terms Conditions- Woxxin Games";
     }, []);
 
 
@@ -397,8 +397,8 @@ function TermsCondition() {
             <div className="max-w-7xl mx-auto mt-5">
 
                 {/* PAGE TITLE */}
-                <h1 className="text-white text-4xl font-light mb-10 hidden lg:block">
-                    Terms and Condition
+                <h1 className="text-white text-2xl text-center md:text-start md:text-4xl font-light mb-10  ">
+                    Terms and Conditions
                 </h1>
 
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
@@ -409,7 +409,7 @@ function TermsCondition() {
                         {/* Desktop Content */}
                         <div className="hidden lg:block space-y-12">
                             {sections.map((section) => (
-                                <div key={section.id} id={section.id}>
+                                <div key={section.id} id={section.id} className="scroll-mt-28"  >
                                     <h2 className="text-2xl font-light mb-4 text-white">
                                         {section.title}
                                     </h2>
@@ -472,7 +472,7 @@ function TermsCondition() {
                                     <li key={index}>
                                         <a
                                             href={`#${section.id}`}
-                                            className="hover:text-yellow-300 transition block"
+                                            className="hover:text-[#7B61FF] transition block"
                                         >
                                             {index + 1}. {section.title}
                                         </a>

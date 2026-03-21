@@ -155,7 +155,7 @@ const sections = [
         id: "keepHold",
         title: "How long does Woxxin Solution keep hold of data?",
         content: (<>
-            We will keep data only for as long as it is relevant and useful for the purpose for which it was originally collected and otherwise where required by law. This means that we will only retain your data for the minimum reasonable time period to allow us to provide our Services to you. If you decide to delete an account you have with us, certain data does stay on our Woxxin Solution system for administrative purposes and to defend or bring any legal action. Please email us at support@artoongames.com for information regarding retention periods.
+            We will keep data only for as long as it is relevant and useful for the purpose for which it was originally collected and otherwise where required by law. This means that we will only retain your data for the minimum reasonable time period to allow us to provide our Services to you. If you decide to delete an account you have with us, certain data does stay on our Woxxin Solution system for administrative purposes and to defend or bring any legal action.
         </>)
     },
     {
@@ -231,20 +231,20 @@ const sections = [
         id: "Transfer",
         title: "International Transfer",
         content: (<>
-            All Personal Information collected via or by Artoon may be stored anywhere in the world, in the cloud or the servers of our service providers. When we transfer your Personal Information internationally, we will take reasonable steps to ensure that it is treated securely, lawfully and in the manner we describe in this Privacy Policy. Please note that laws vary from jurisdiction to jurisdiction, so the privacy laws applicable to the places where your information is transferred to or stored, used or processed in may be different from the privacy laws applicable to the place where you are resident.
+            All Personal Information collected via or by Woxxin may be stored anywhere in the world, in the cloud or the servers of our service providers. When we transfer your Personal Information internationally, we will take reasonable steps to ensure that it is treated securely, lawfully and in the manner we describe in this Privacy Policy. Please note that laws vary from jurisdiction to jurisdiction, so the privacy laws applicable to the places where your information is transferred to or stored, used or processed in may be different from the privacy laws applicable to the place where you are resident.
             <br /><br />
-            By providing information to Artoon, you consent to the storage of your Personal Information in these locations.
+            By providing information to Woxxin, you consent to the storage of your Personal Information in these locations.
             <br /><br />
             If you are using our Services from the European Union or other regions with laws governing data collection and use, please note that you are agreeing to the transfer of your information to India and other countries and to the processing of your data globally. This transfer is required to host the Services, provide you with technical and customer support services, perform backups of your data, and to process your payment details if you make any in game purchases.
             <br /><br />
-            By choosing to visit the Site, using our Apps, utilizing the Services or otherwise providing information to us, you agree that any dispute over privacy or the terms contained in this Privacy Policy will be governed by the laws of India and the adjudication of any disputes arising in connection with Artoon or the Site will be in accordance with the Terms Services.
+            By choosing to visit the Site, using our Apps, utilizing the Services or otherwise providing information to us, you agree that any dispute over privacy or the terms contained in this Privacy Policy will be governed by the laws of India and the adjudication of any disputes arising in connection with Woxxin or the Site will be in accordance with the Terms Services.
         </>)
     },
     {
         id: "OPT-OUT",
         title: "OPT-OUT (Right to Restrict Processing)",
         content: (<>
-            You have the right to opt out of certain uses and disclosures of your Personal Information. When you have consented to Artoons’ processing of your Personal Information other information, you may withdraw that consent at any time and opt out to further processing by opening an in-game support ticket or, alternatively, by contacting support@artoongames.com. Even if you opt out, we may still collect and use anonymized, non-Personal Information regarding your activities on our Services.
+            You have the right to opt out of certain uses and disclosures of your Personal Information. When you have consented to Woxxins’ processing of your Personal Information other information, you may withdraw that consent at any time and opt out to further processing by opening an in-game support ticket or, alternatively, by contacting support@Woxxingames.com. Even if you opt out, we may still collect and use anonymized, non-Personal Information regarding your activities on our Services.
             <br />,<br />
             Please also note that certain records, for example, those relating to payments or customer service matters, will be held for legal and accounting purposes. If you have sent content through or posted content on the Service, we may not be able to delete it.
             <br /><br />
@@ -252,16 +252,16 @@ const sections = [
             If you receive an unwanted email from us, you can use the unsubscribe link at the bottom of the email to opt out of receiving future emails. We will process your request within a reasonable time after receipt. Note that you will continue to receive transaction-related emails regarding products or Services you have requested.
             <br /><br />
             <span className="text-white font-light text-xl mb-5">2. Mobile devices</span> <br /><br />
-            Artoon may occasionally send you push notifications through our mobile applications with game updates, high scores and other notices that may be of interest to you. You may at any time opt out from receiving these types of communications by changing the settings on your mobile device. Artoon may also collect location-based information if you use our mobile applications. You can opt out of this collection by changing the settings on your mobile device.
+            Woxxin may occasionally send you push notifications through our mobile applications with game updates, high scores and other notices that may be of interest to you. You may at any time opt out from receiving these types of communications by changing the settings on your mobile device. Woxxin may also collect location-based information if you use our mobile applications. You can opt out of this collection by changing the settings on your mobile device.
             <br /><br />
             <span className="text-white font-light text-xl mb-5">3. Cookies and internet-based or targeted advertising</span> <br /><br />
             As noted, you may stop or restrict the placement of Cookies on your computer or remove them from your browser by adjusting your web browser preferences.
             <br /><br />
             The online advertising industry also provides websites from which you may opt out of receiving targeted ads from our data partners and our other advertising partners that participate in self-regulatory programs. You can also choose not to be included in Google Analytics  <a href="https://chromewebstore.google.com/detail/google-analytics-opt-out/fllaojicojecljbmefodhfapmkghcbnh?hl=en" className="text-blue-500 underline hover:text-blue-700">
                 hear
-            </a>. Please note that these opt out tools are provided by third parties, and Artoon does not operate or control these tools or the choices that advertisers and others provide through these tools.
+            </a>. Please note that these opt out tools are provided by third parties, and Woxxin does not operate or control these tools or the choices that advertisers and others provide through these tools.
             <br /><br />
-            On mobile devices, you can reset the Advertising Identifier (like an IDFA) from your mobile device’s settings page, which will prevent continued use of existing behavioral data tied to the previous Advertising Identifier. Furthermore, depending on the platform provider (such as Apple or Google), you may be able to download apps, such as the Digital Advertising Alliance’s “AppChoices” app, that provide you with control regarding the collection and use of cross-app data for tailored advertising. Like the opt out tools mentioned for web, these opt out tools are provided by third parties, and Artoon does not operate or control these tools or the choices that advertisers and others provide through these tools.
+            On mobile devices, you can reset the Advertising Identifier (like an IDFA) from your mobile device’s settings page, which will prevent continued use of existing behavioral data tied to the previous Advertising Identifier. Furthermore, depending on the platform provider (such as Apple or Google), you may be able to download apps, such as the Digital Advertising Alliance’s “AppChoices” app, that provide you with control regarding the collection and use of cross-app data for tailored advertising. Like the opt out tools mentioned for web, these opt out tools are provided by third parties, and Woxxin does not operate or control these tools or the choices that advertisers and others provide through these tools.
             <br /><br />
             To be clear, whether you are using our opt out or an online industry opt out, these cookie-based opt outs must be performed on each device and browser that you wish to have opted out. For example, if you have opted out on your computer browser, that opt out will not be effective on your mobile device.
 
@@ -271,13 +271,13 @@ const sections = [
         id: "ORectification",
         title: "Rights of Access, Rectification, Erasure, and Restriction",
         content: (<>
-            You have the right to request access to and rectification or erasure of Personal Information. You can manage your information as described in this Privacy Policy, and you may have additional rights related to that information as described below. You can exercise these rights by opening a help ticket directly in-game via the ‘Help’ section, or by emailing Artoon at support@artoongames.com. Please note that we will need sufficient information establishing your identity in order for us to fulfill your request. Where we can validate your identity, we will process any such request within a reasonable timeframe and in accordance with applicable law.
+            You have the right to request access to and rectification or erasure of Personal Information. You can manage your information as described in this Privacy Policy, and you may have additional rights related to that information as described below. You can exercise these rights by opening a help ticket directly in-game via the ‘Help’ section, or by emailing Woxxin at support@Woxxingames.com. Please note that we will need sufficient information establishing your identity in order for us to fulfill your request. Where we can validate your identity, we will process any such request within a reasonable timeframe and in accordance with applicable law.
             <br /><br />
             <span className="text-white font-light text-xl mb-5">1. Accessing, Updating, or Correcting Your Data</span> <br /><br />
-            You are expected to maintain accurate, complete, and up-to-date information in connection with your account, but we provide you functionality to update or correct your information directly in-app. You can also access a range of information in-app, including things like your user name, picture or avatar, game performance and progress, virtual items, chats, or other information you may have entered in-app. For any information that you are not able to access or update directly, please open an in-game help ticket via the ‘Help’ section for that particular game, or contact support@artoongames.com.
+            You are expected to maintain accurate, complete, and up-to-date information in connection with your account, but we provide you functionality to update or correct your information directly in-app. You can also access a range of information in-app, including things like your user name, picture or avatar, game performance and progress, virtual items, chats, or other information you may have entered in-app. For any information that you are not able to access or update directly, please open an in-game help ticket via the ‘Help’ section for that particular game, or contact support@Woxxingames.com.
             <br /><br />
             <span className="text-white font-light text-xl mb-5">2. Deletion of Your Data</span> <br /><br />
-            You have the right to request deletion of your personal information, subject to our data retention policy mentioned below. If you would like to have your personal information deleted with respect to any games you’ve played, please open an in-game help ticket via the ‘Help’ section for that game. If you have played multiple Artoon games and want to have your personal information deleted as to all of them, please open a help ticket directly in-game via the ‘Help’ section for each of those games, or contact support@artoongames.com for help. Please note that if you delete your personal information, you may no longer use or access the Services, and that if you share devices with someone else who uses the Services, that person may lose game progress or related account information and access. If you decide to use or access the Services again, Artoon may consider this a new account and may collect personal information associated with that account in accordance with this Privacy Policy.
+            You have the right to request deletion of your personal information, subject to our data retention policy mentioned below. If you would like to have your personal information deleted with respect to any games you’ve played, please open an in-game help ticket via the ‘Help’ section for that game. If you have played multiple Woxxin games and want to have your personal information deleted as to all of them, please open a help ticket directly in-game via the ‘Help’ section for each of those games, or contact support@Woxxingames.com for help. Please note that if you delete your personal information, you may no longer use or access the Services, and that if you share devices with someone else who uses the Services, that person may lose game progress or related account information and access. If you decide to use or access the Services again, Woxxin may consider this a new account and may collect personal information associated with that account in accordance with this Privacy Policy.
 
         </>)
     },
@@ -285,7 +285,7 @@ const sections = [
         id: "Retention",
         title: "Data Retention",
         content: (<>
-            Artoon retains the Personal Information collected as described in this Privacy Policy for as long as you use our Services or as necessary to fulfill the purpose(s) for which it was collected, provide our Services, resolve disputes, establish legal defenses, conduct audits, pursue legitimate business purposes, enforce our agreements and comply with applicable laws.
+            Woxxin retains the Personal Information collected as described in this Privacy Policy for as long as you use our Services or as necessary to fulfill the purpose(s) for which it was collected, provide our Services, resolve disputes, establish legal defenses, conduct audits, pursue legitimate business purposes, enforce our agreements and comply with applicable laws.
         </>)
     },
     {
@@ -308,7 +308,7 @@ const sections = [
         id: "Guardians",
         title: "For Parents/Guardians",
         content: (<>
-            If you would like to review or amend your child’s information, ask to have it deleted, and/or refuse to allow any further collection or use of your child’s information, then please send an email to our Data Protection Officer at support@artoongames.com. Please be sure to include your email address and a telephone number where we can reach you. To protect your child’s privacy and security, we will take reasonable steps to help verify your identity before granting you access to the information that we collect and maintain about your child.
+            If you would like to review or amend your child’s information, ask to have it deleted, and/or refuse to allow any further collection or use of your child’s information, then please send an email to our Data Protection Officer at support@Woxxingames.com. Please be sure to include your email address and a telephone number where we can reach you. To protect your child’s privacy and security, we will take reasonable steps to help verify your identity before granting you access to the information that we collect and maintain about your child.
             <br /><br />
             We recommend that parents take the time to communicate and educate their children about Internet Safety.
         </>)
@@ -327,7 +327,7 @@ const sections = [
             <br /><br />
             If you have an account with us, in certain games, you can view and edit your profile to change the settings in order to prevent others being able to add you as a friend.
             <br /><br />
-            If you wish to exercise any of the above rights, please get in touch with us by emailing support@artoongames.com.
+            If you wish to exercise any of the above rights, please get in touch with us by emailing support@Woxxingames.com.
 
         </>)
     },
@@ -335,7 +335,7 @@ const sections = [
         id: "getCopy",
         title: "How do I get a copy of my data?",
         content: (<>
-            You have the right to ask us to provide you with copies of personal data that we hold about you at any time. Please contact us by emailing support@artoongames.com.
+            You have the right to ask us to provide you with copies of personal data that we hold about you at any time. Please contact us by emailing support@Woxxingames.com.
 
         </>)
     },
@@ -343,7 +343,7 @@ const sections = [
         id: "contact",
         title: "How can I contact Woxxin Solution?",
         content: (<>
-            If you have any questions about this Privacy Policy or wish to request a copy of the data which we hold about you, please contact our Data Protection Officer at support@artoongames.com.
+            If you have any questions about this Privacy Policy or wish to request a copy of the data which we hold about you, please contact our Data Protection Officer at support@Woxxingames.com.
 
         </>)
     },
@@ -351,7 +351,7 @@ const sections = [
         id: "complaint",
         title: "What can I do if I have a complaint?",
         content: (<>
-            If you are not satisfied with the way your query or complaint is handled by Woxxin Solution, please let us know by emailing us at support@artoongames.com.
+            If you are not satisfied with the way your query or complaint is handled by Woxxin Solution, please let us know by emailing us at support@Woxxingames.com.
             <br /><br />
             List of advertising partners used in Woxxin Solution’s games
 
@@ -477,7 +477,7 @@ export default function PrivacyPolicy() {
             <div className="max-w-7xl mx-auto mt-5">
 
                 {/* PAGE TITLE */}
-                <h1 className="text-white  text-4xl font-light mb-10 hidden lg:block">
+                <h1 className="text-white text-2xl text-center md:text-start  md:text-4xl font-light mb-10">
                     Privacy Policy
                 </h1>
 
@@ -489,7 +489,7 @@ export default function PrivacyPolicy() {
                         {/* Desktop Content */}
                         <div className="hidden lg:block space-y-12">
                             {sections.map((section) => (
-                                <div key={section.id} id={section.id}>
+                                <div key={section.id} id={section.id} className="scroll-mt-28"  >
                                     <h2 className="text-2xl font-light mb-4 text-white">
                                         {section.title}
                                     </h2>
@@ -551,7 +551,7 @@ export default function PrivacyPolicy() {
                                     <li key={index}>
                                         <a
                                             href={`#${section.id}`}
-                                            className="hover:text-yellow-300 transition block"
+                                            className="hover:text-[#7B61FF] transition block"
                                         >
                                             {index + 1}. {section.title}
                                         </a>

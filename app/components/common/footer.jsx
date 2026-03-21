@@ -47,7 +47,7 @@ export default function Footer() {
                 {/* LEFT */}
                 <div className="flex gap-6 mb-4 md:mb-0">
                     <Link href="/components/pages/privacy-policy" className="hover:text-white">Privacy Policy</Link>
-                    <Link href="/components/pages/terms-condition" className="hover:text-white">Terms and Condition</Link>
+                    <Link href="/components/pages/terms-condition" className="hover:text-white">Terms and Conditions</Link>
                 </div>
 
                 {/* RIGHT */}
