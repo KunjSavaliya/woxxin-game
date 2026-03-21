@@ -28,12 +28,9 @@ export default function Footer() {
                     <Link href="https://www.youtube.com/channel/UCJJOqSmgPQuQiGoCVGdAWZQ" className="hover:text-white transition">Youtube</Link>
                     <Link href="https://www.instagram.com/woxxinsolution?utm_source=qr&igsh=MWl0d2p4ZGhsdDE0ag==" className="hover:text-white transition ">Instagram</Link>
                     <Link href="https://www.linkedin.com/company/woxxinsolution/ " className="hover:text-white transition ">LinkedIn</Link>
-
                 </div>
-
             </div>
 
-            {/* 🐝 BEE IMAGE */}
             <div className="absolute right-4 bottom-16 hidden md:block">
                 <Image
                     src="/honey.png"   // 👈 add your bee image
