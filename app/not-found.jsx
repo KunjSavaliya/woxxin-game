@@ -12,7 +12,7 @@ function Page404() {
 
       {/* Image */}
       <img
-        src="2x.png"
+        src="/2x.png"
         alt="404 Not Found"
         className="absolute inset-0 w-full h-full object-fill"
       />
