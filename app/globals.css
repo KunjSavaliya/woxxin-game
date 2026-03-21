@@ -25,18 +25,19 @@ body {
   font-family: var(--font-poppins);
 }
 /* Heading font */
-.heading {
+/* .heading {
   font-family: var(--font-wendy);
 }
 
 /* Optional utility classes */
-.font-wendy {
+/* .font-wendy {
   font-family: var(--font-wendy);
 }
 
 .font-poppins {
   font-family: var(--font-poppins);
-}
+} */
+
 /* ---------------------------------------- */
 
 /* 🔹 Pagination container */
