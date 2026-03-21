@@ -321,7 +321,7 @@ function Aboutus() {
                 />
 
                 {/* CONTENT */}
-                <div className="max-w-7xl mx-auto pt-16 pb-16">
+                <div className="max-w-7xl mx-auto pt-16 pb-16 px-4 md:px-12 md:py-12 md:py-20">
 
                     {/* HEADING */}
                     <h2 className="text-center text-[32px] md:text-[56px] font-bold bg-gradient-to-r from-[#FFFFFF] to-[#AAA7FE] bg-clip-text text-transparent mt-10 mb-10">
