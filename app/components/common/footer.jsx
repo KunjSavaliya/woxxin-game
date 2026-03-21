@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Footer() {
     return (
-        <footer className="relative bg-[#0B0B0F] text-white pt-16 pb-6 px-4 overflow-hidden">
+        <footer className="relative  text-white pt-16 pb-6 px-4 overflow-hidden">
 
             <div className="max-w-5xl mx-auto text-center">
 
@@ -25,8 +25,10 @@ export default function Footer() {
 
                 {/* SOCIAL LINKS (TEXT STYLE) */}
                 <div className="flex justify-center gap-6 mt-8 text-gray-400 text-sm uppercase tracking-wide">
-                    <Link href="#" className="hover:text-white transition">Youtube</Link>
-                    <Link href="#" className="hover:text-white transition ">Instagram</Link>
+                    <Link href="https://www.youtube.com/channel/UCJJOqSmgPQuQiGoCVGdAWZQ" className="hover:text-white transition">Youtube</Link>
+                    <Link href="https://www.instagram.com/woxxinsolution?utm_source=qr&igsh=MWl0d2p4ZGhsdDE0ag==" className="hover:text-white transition ">Instagram</Link>
+                    <Link href="https://www.linkedin.com/company/woxxinsolution/ " className="hover:text-white transition ">LinkedIn</Link>
+
                 </div>
 
             </div>

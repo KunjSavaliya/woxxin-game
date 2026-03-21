@@ -69,6 +69,7 @@ body {
   transform: scale(1.1);
 }
 /* --------------------------------------------- */
+
 @keyframes gradientMove {
   0% {
     background-position: 0% 50%;

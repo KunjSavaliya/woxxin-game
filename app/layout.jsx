@@ -1,5 +1,9 @@
+import CustomCursor from "./components/common/CustomCursor";
 import Footer from "./components/common/footer";
 import Navbar from "./components/common/navbar";
+import RouteLoader from "./components/common/RouteLoader";
+import SmoothScrollProvider from "./components/common/SmoothScrollProvider";
+
 import "./globals.css";
 import { Wendy_One, Poppins } from "next/font/google";
 
@@ -23,9 +27,14 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${wendy.variable} ${poppins.variable}`}>
-        <Navbar />
-        {children}
-        <Footer />
+        <RouteLoader>
+          <CustomCursor />
+          <Navbar />
+          <SmoothScrollProvider>
+            {children}
+          </SmoothScrollProvider>
+          <Footer />
+        </RouteLoader>
       </body>
     </html>
   );

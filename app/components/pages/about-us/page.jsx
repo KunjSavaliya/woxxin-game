@@ -6,6 +6,10 @@ import "swiper/css";
 import "swiper/css/navigation";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper/modules";
+import CountUp from "react-countup";
+import ScrollAnimation from "react-animate-on-scroll";
+import "animate.css";
+
 
 const games = [
     "/S1.png",
@@ -77,40 +81,44 @@ function Aboutus() {
 
                         </div>
                         {/* IMAGE */}
-                        <div className="w-full md:w-auto flex justify-center md:justify-end md:-mt-15">
-                            <Image
-                                src="/twoCartton.png"
-                                alt="characters"
-                                width={600}
-                                height={600}
-                                priority
-                                className="w-[320px] md:w-[500px] lg:w-[600px] xl:w-[650px] 2xl:w-[700px] object-contain z-1"
-                            />
+                        <div className="relative z-1">
+                            <div className="w-full md:w-auto flex justify-center md:justify-end md:-mt-15">
+                                <Image
+                                    src="/twoCartton.png"
+                                    alt="characters"
+                                    width={600}
+                                    height={600}
+                                    priority
+                                    className="w-[320px] md:w-[500px] lg:w-[600px] xl:w-[650px] 2xl:w-[700px] object-contain"
+                                />
+                            </div>
                         </div>
-
                     </div>
 
                 </div>
             </section>
             {/* ///code1 */}
+            <ScrollAnimation animateIn="animate__animated animate__fadeInUp">
 
-            <section className="hidden md:block relative overflow-hidden md:-mt-[160px] lg:-mt-[180px] xl:-mt-[190px] 2xl:-mt-[212px]">
-                <div className="relative w-full">
-                    <Image
-                        src="/dino.png"
-                        alt="vision mission"
-                        width={1400}
-                        height={600}
-                        priority
-                        className="w-full h-full object-contain"
-                    />
-                </div>
-            </section>
+                <section className="hidden md:block relative overflow-hidden md:-mt-[160px] lg:-mt-[180px] xl:-mt-[190px] 2xl:-mt-[225px]">
+                    <div className="relative w-full">
+                        <Image
+                            src="/dino.png"
+                            alt="vision mission"
+                            width={1400}
+                            height={600}
+                            priority
+                            className="w-full h-full object-contain"
+                        />
+                    </div>
+                </section>
+            </ScrollAnimation>
             {/* ///code2 */}
 
             <section className="md:hidden relative w-full py-16 overflow-hidden">
 
                 {/* BACKGROUND IMAGE */}
+
                 <Image
                     src="/BGSlide.png"
                     alt="background"
@@ -121,51 +129,59 @@ function Aboutus() {
 
                 <div className="max-w-7xl mx-auto flex flex-col items-center gap-10 mt-10 mb-10 px-4">
 
-                    {/* IMAGE */}
-                    <div className="flex justify-center">
-                        <Image
-                            src="/dino1.png"
-                            alt="character"
-                            width={600}
-                            height={600}
-                            className="w-[280px]  object-contain mt-5"
-                            priority
-                        />
-                    </div>
+                    <ScrollAnimation animateIn="animate__animated animate__fadeInUp">
 
+                        <div className="flex justify-center">
+                            <Image
+                                src="/dino1.png"
+                                alt="character"
+                                width={600}
+                                height={600}
+                                className="w-[280px]  object-contain mt-5"
+                                priority
+                            />
+                        </div>
+                    </ScrollAnimation>
                     {/* CONTENT */}
                     <div className="w-full space-y-8 text-center mb-5">
 
                         {/* OUR VISIONS */}
-                        <div>
-                            <h2 className="text-white text-xl font-bold tracking-wide">
-                                OUR{" "}
-                                <span className="bg-gradient-to-r from-[#FFFFFF] to-[#AAA7FE] bg-clip-text text-transparent">
-                                    VISIONS
-                                </span>
-                            </h2>
-                            <p className="mt-3 text-gray-400 text-md leading-relaxed">
-                                To become a leading force in the gaming industry, elevating India’s
-                                game development to the global stage.
-                            </p>
-                        </div>
+                        <ScrollAnimation animateIn="animate__animated animate__fadeInUp">
 
-                        {/* Divider */}
-                        <div className="w-full h-[1px] bg-gray-700"></div>
+                            <div>
+                                <h2 className="text-white text-xl font-bold tracking-wide">
+                                    OUR{" "}
+                                    <span className="bg-gradient-to-r from-[#FFFFFF] to-[#AAA7FE] bg-clip-text text-transparent">
+                                        VISIONS
+                                    </span>
+                                </h2>
+                                <p className="mt-3 text-gray-400 text-md leading-relaxed">
+                                    To become a leading force in the gaming industry, elevating India’s
+                                    game development to the global stage.
+                                </p>
+                            </div>
+                        </ScrollAnimation>
 
+                        <ScrollAnimation animateIn="animate__animated animate__fadeInUp">
+
+                            <div className="w-full h-[1px] bg-gray-700"></div>
+                        </ScrollAnimation>
                         {/* OUR MISSION */}
-                        <div>
-                            <h2 className="text-white text-xl font-bold tracking-wide">
-                                OUR{" "}
-                                <span className="bg-gradient-to-r from-[#FFFFFF] to-[#AAA7FE] bg-clip-text text-transparent">
-                                    MISSION
-                                </span>
-                            </h2>
-                            <p className="mt-3 text-gray-400 text-md leading-relaxed">
-                                To deliver high-quality gaming experiences and connect players
-                                around the world through innovative and engaging games.
-                            </p>
-                        </div>
+                        <ScrollAnimation animateIn="animate__animated animate__fadeInUp">
+
+                            <div>
+                                <h2 className="text-white text-xl font-bold tracking-wide">
+                                    OUR{" "}
+                                    <span className="bg-gradient-to-r from-[#FFFFFF] to-[#AAA7FE] bg-clip-text text-transparent">
+                                        MISSION
+                                    </span>
+                                </h2>
+                                <p className="mt-3 text-gray-400 text-md leading-relaxed">
+                                    To deliver high-quality gaming experiences and connect players
+                                    around the world through innovative and engaging games.
+                                </p>
+                            </div>
+                        </ScrollAnimation>
 
                     </div>
                 </div>
@@ -177,51 +193,67 @@ function Aboutus() {
                     {/* 🔹 LEFT CONTENT */}
                     <div className="w-full md:w-1/2 text-center md:text-left">
 
-                        {/* HEADING */}
-                        <h2 className="text-[28px] sm:text-[34px] md:text-[42px] font-extrabold tracking-wide bg-gradient-to-r from-[#FFFFFF] to-[#AAA7FE] bg-clip-text text-transparent">
-                            GAME PUBLISH
-                        </h2>
+                        <ScrollAnimation animateIn="animate__animated animate__fadeInUp">
 
-                        {/* DESCRIPTION */}
-                        <p className="mt-4 text-gray-400 text-md sm:text-xl leading-relaxed max-w-xl mx-auto md:mx-0">
-                            At Woxxin Games, we combine years of game distribution expertise with a powerful data-driven approach to help developers grow. As a trusted global partner, we optimize performance, boost visibility, and maximize your game’s revenue.
-                        </p>
+                            <h2 className="text-[28px] sm:text-[34px] md:text-[42px] font-extrabold tracking-wide bg-gradient-to-r from-[#FFFFFF] to-[#AAA7FE] bg-clip-text text-transparent">
+                                GAME PUBLISH
+                            </h2>
+                        </ScrollAnimation>
+                        <ScrollAnimation animateIn="animate__animated animate__fadeInUp">
 
-                        {/* SUB TEXT */}
-                        <p className="mt-4 text-[#AFAEFF] text-md sm:text-xl font-medium">
-                            Let’s grow together and turn great games into global successes. 🚀
-                        </p>
+                            <p className="mt-4 text-gray-400 text-md sm:text-xl leading-relaxed max-w-xl mx-auto md:mx-0">
+                                At Woxxin Games, we combine years of game distribution expertise with a powerful data-driven approach to help developers grow. As a trusted global partner, we optimize performance, boost visibility, and maximize your game’s revenue.
+                            </p>
+                        </ScrollAnimation>
 
-                        {/* STATS */}
+                        <ScrollAnimation animateIn="animate__animated animate__fadeInUp">
+
+                            <p className="mt-4 text-[#AFAEFF] text-md sm:text-xl font-medium">
+                                Let’s grow together and turn great games into global successes. 🚀
+                            </p>
+                        </ScrollAnimation>
+
+
                         <div className="mt-8 flex flex-col sm:flex-row items-center md:items-start justify-center md:justify-start gap-10 sm:gap-16">
+                            <ScrollAnimation animateIn="animate__animated animate__fadeInUp">
 
-                            {/* 100+ */}
-                            <div className="text-center md:text-left">
-                                <h3 className="text-[48px] md:text-[56px] font-bold">100+</h3>
-                                <div className="w-16 h-[2px] bg-gray-600 my-2 mx-auto md:mx-0"></div>
-                                <p className="text-gray-400 text-lg tracking-wide">GAMES LAUNCHED</p>
-                            </div>
+                                <div className="text-center md:text-left">
+                                    <h3 className="text-[48px] md:text-[56px] font-bold">
+                                        <CountUp end={100} duration={10} suffix="+" />
 
-                            {/* 1M+ */}
-                            <div className="text-center md:text-left">
-                                <h3 className="text-[48px] md:text-[56px] font-bold">1M+</h3>
-                                <div className="w-16 h-[2px] bg-gray-600 my-2 mx-auto md:mx-0"></div>
-                                <p className="text-gray-400 text-lg tracking-wide">DOWNLOADS</p>
-                            </div>
+                                    </h3>
+                                    <div className="w-16 h-[2px] bg-gray-600 my-2 mx-auto md:mx-0"></div>
+                                    <p className="text-gray-400 text-lg tracking-wide">GAMES LAUNCHED</p>
+                                </div>
+                            </ScrollAnimation>
+                            <ScrollAnimation animateIn="animate__animated animate__fadeInUp">
+
+                                <div className="text-center md:text-left">
+                                    <h3 className="text-[48px] md:text-[56px] font-bold">
+                                        <CountUp end={10} duration={10} suffix="M+" />
+                                    </h3>
+                                    <div className="w-16 h-[2px] bg-gray-600 my-2 mx-auto md:mx-0"></div>
+                                    <p className="text-gray-400 text-lg tracking-wide">DOWNLOADS</p>
+                                </div>
+                            </ScrollAnimation>
 
                         </div>
                     </div>
 
-                    {/* 🔹 RIGHT IMAGE */}
+
                     <div className="w-full md:w-1/2 flex justify-center md:justify-end">
-                        <Image
-                            src="/wool3D.png" // 👈 your image
-                            alt="game publish"
-                            width={600}
-                            height={600}
-                            className="w-[280px]  md:w-[500px] object-contain"
-                        />
+                        <ScrollAnimation animateIn="animate__animated animate__fadeInUp">
+
+                            <Image
+                                src="/wool3D.png" // 👈 your image
+                                alt="game publish"
+                                width={600}
+                                height={600}
+                                className="w-[280px]  md:w-[500px] object-contain"
+                            />
+                        </ScrollAnimation>
                     </div>
+
 
                 </div>
 
@@ -232,26 +264,33 @@ function Aboutus() {
 
                     {/* HEADING */}
                     <div className="text-center mb-10">
-                        <h2 className="text-[32px] md:text-[56px] font-bold bg-gradient-to-r from-[#FFFFFF] to-[#AAA7FE] bg-clip-text text-transparent">
-                            ONLY LEGENDS RULE THE LEADERBOARD
-                        </h2>
-                        <p className="text-gray-400  text-md md:text-xl mt-3 max-w-5xl mx-auto">
-                            Compete with players worldwide and climb to the top. Earn your spot, beat high scores, and become a champion.
-                        </p>
+                        <ScrollAnimation animateIn="animate__animated animate__fadeInUp">
+
+                            <h2 className="text-[32px] md:text-[56px] font-bold bg-gradient-to-r from-[#FFFFFF] to-[#AAA7FE] bg-clip-text text-transparent">
+                                ONLY LEGENDS RULE THE LEADERBOARD
+                            </h2>
+                        </ScrollAnimation>
+                        <ScrollAnimation animateIn="animate__animated animate__fadeInUp">
+
+                            <p className="text-gray-400  text-md md:text-xl mt-3 max-w-5xl mx-auto">
+                                Compete with players worldwide and climb to the top. Earn your spot, beat high scores, and become a champion.
+                            </p>
+                        </ScrollAnimation>
                     </div>
                     <div className="max-w-7xl mx-auto">
 
                         <div className="relative w-full">
+                            <ScrollAnimation animateIn="animate__animated animate__fadeInUp">
 
-                            <Image
-                                src="/table.png"   // 👈 your image
-                                alt="leaderboard table"
-                                width={1400}
-                                height={700}
-                                priority
-                                className="w-full h-auto object-contain"
-                            />
-
+                                <Image
+                                    src="/table.png"   // 👈 your image
+                                    alt="leaderboard table"
+                                    width={1400}
+                                    height={700}
+                                    priority
+                                    className="w-full h-auto object-contain"
+                                />
+                            </ScrollAnimation>
                         </div>
 
                     </div>
