@@ -64,7 +64,7 @@ export default function Navbar() {
                     {/* LOGO */}
                     <div>
                         <img
-                            src="/logo.png"
+                            src="/logo2.png"
                             alt="logo"
                             onClick={() => handleNavigation("/components/pages/about-us")}
                             className="w-32 md:w-46 cursor-pointer"
