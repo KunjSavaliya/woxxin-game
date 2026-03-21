@@ -129,7 +129,7 @@ export default function Navbar() {
                         <a
                             href="https://woxxin.com/"
                             target="_blank"
-                            className="flex justify-center items-center gap-2 bg-[#00E5FF] text-black py-2 rounded-full font-semibold"
+                            className="flex justify-center items-center gap-2 bg-[#7B61FF] text-black py-2 rounded-full font-semibold"
                         >
                             More Info
                             <ArrowUpRight size={16} />

@@ -43,7 +43,7 @@ function Aboutus() {
                         <motion.div {...fadeUp}>
 
                             <h1 className="font-extrabold leading-[1.1] tracking-wide mt-10 md:mt-5">
-                                <span className="block text-[46px] sm:text-[50px] md:text-[70px] lg:text-[85px] bg-gradient-to-r from-[#FFFFFF] to-[#AAA7FE] bg-clip-text text-transparent">
+                                <span className="block text-[36px] sm:text-[50px] md:text-[70px] lg:text-[85px] bg-gradient-to-r from-[#FFFFFF] to-[#AAA7FE] bg-clip-text text-transparent">
                                     EXPLORE ICONIC GAMES
                                 </span>
                             </h1>
