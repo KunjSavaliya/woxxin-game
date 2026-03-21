@@ -375,7 +375,7 @@ const sections = [
         content: (<>
             We are not liable for any changes or problems out of our control, for example, changes or problems caused by natural disasters, war, terrorism, riots, embargoes, acts of civil or military authorities, fire, floods, accidents, network infrastructure failures, strikes, or shortages of transportation, facilities, fuel, energy, labor, or materials This provision does not apply to users located in the EEA.
             <br /><br />
-            This content was last updated on April 1, 2021.
+            This content was last updated on March , 2026.
         </>)
     }
 

@@ -9,7 +9,7 @@ const sections = [
         content: (
             <>
 
-                Woxxin Solutions (a company registered in India (registration number 000000000), whose registered office is at C 000,  Varachha, Surat-395006, Gujrat, India) is the data controller of the personal information that we collect from you. Woxxin Solution are referred to in this Privacy Policy as “Woxxin Solution”, “us”, “we” or “our”. <br /><br />
+                Woxxin Solutions (a company registered in India (registration number U72200GJ2019PTC107596), whose registered office is at SHOP 128,1ST FLOOR,SY.NO.2111 TPS-24 FP-34.OPP.AKHAND ANAND COLLEGE, VED ROAD Surat Gujarat India 395004) is the data controller of the personal information that we collect from you. Woxxin Solution are referred to in this Privacy Policy as “Woxxin Solution”, “us”, “we” or “our”. <br /><br />
                 <span>  We are committed to providing fun and exciting digital entertainment. This Privacy Policy explains how and what personal data relating to you
                     we may use in relation to our main website{" "}
 
@@ -358,7 +358,102 @@ const sections = [
             <br /><br />
             As set out in our Privacy Policy, the following advertising partners are integrated into some or all of our games. These advertising partners may process personal data of our end users in accordance with our Privacy Policy.
             <br /><br />
-            The links to the third party privacy policies below were last checked on 24th May 2018.
+            <span className="text-white font-light text-xl mb-5">MOBILE</span> <br /><br />
+            Advertising Partner
+            <br /><br />
+            <span className="text-white font-light text-xl mb-5">Link to Privacy Policy</span> <br /><br />
+            AdColony :-  <a href="https://www.digitalturbine.com/legal/privacy-policy" className="text-blue-500 underline hover:text-blue-700">
+                https://www.adcolony.com/privacy-policy/
+            </a> <br /><br />
+            AdMob (Google)  :-  <a href="https://policies.google.com/technologies/partner-sites" className="text-blue-500 underline hover:text-blue-700">
+                https://policies.google.com/technologies/partner-sites
+            </a> <br /><br />
+            Adview  :-  <a href="https://www.adview.cn/" className="text-blue-500 underline hover:text-blue-700">
+                https://www.adview.cn/web/overseas/policy/privacy
+            </a> <br /><br />
+            Applovin :-  <a href="https://www.applovin.com/en" className="text-blue-500 underline hover:text-blue-700">
+                https://www.applovin.com/privacy/
+            </a> <br /><br />
+            Facebook  :-  <a href="https://www.facebook.com/privacy/policy/?entry_point=data_policy_redirect&entry=0" className="text-blue-500 underline hover:text-blue-700">
+                https://www.facebook.com/policy.php
+            </a> <br /><br />
+            Fyber :- <a href="https://www.digitalturbine.com/legal/privacy-policy" className="text-blue-500 underline hover:text-blue-700">
+                https://www.fyber.com/legal/privacy-policy/
+            </a> <br /><br />
+            inMobi  :- <a href="https://www.inmobi.com/website-privacy-policy" className="text-blue-500 underline hover:text-blue-700">
+                https://www.inmobi.com/privacy-policy/
+            </a> <br /><br />
+
+            ironSource   :- <a href="https://developers.is.com/ironsource-mobile/air/ironsource-mobile-privacy-policy/" className="text-blue-500 underline hover:text-blue-700">
+                https://developers.ironsrc.com/ironsource-mobile/air/iro
+            </a> <br /><br />
+            Loopme :- <a href="https://legal.loopme.com/privacy-center" className="text-blue-500 underline hover:text-blue-700">
+                https://loopme.com/privacy/
+            </a> <br /><br />
+            MoPub :- <a href="https://applovin.com/en" className="text-blue-500 underline hover:text-blue-700">
+                https://www.mopub.com/legal/privacy/
+            </a> <br /><br />
+            Oath :- <a href="https://legal.yahoo.com/in/en/yahoo/privacy/index.html" className="text-blue-500 underline hover:text-blue-700">
+                https://policies.oath.com/in/en/oath/privacy/index.html
+            </a> <br /><br />
+            LifeStreet :- <a href="https://www.lifestreet.com/privacy/" className="text-blue-500 underline hover:text-blue-700">
+                https://www.lifestreet.com/privacy/
+            </a> <br /><br />
+            Soomla :- <a href="https://unity.com/grow" className="text-blue-500 underline hover:text-blue-700">
+                https://soomla.com/privacy-policy.html
+            </a> <br /><br />
+            Tapjoy :- <a href="https://docs.unity.com/en-us/grow/offerwall#privacy-policy" className="text-blue-500 underline hover:text-blue-700">
+                https://www.tapjoy.com/legal/#privacy-policy
+            </a> <br /><br />
+            Unity Ads :- <a href="https://unity.com/legal/privacy-policy" className="text-blue-500 underline hover:text-blue-700">
+                https://unity.com/legal/privacy-policy
+            </a> <br /><br />
+            Vungle :- <a href="https://liftoff.ai/privacy-policy/" className="text-blue-500 underline hover:text-blue-700">
+                https://vungle.com/privacy/
+            </a> <br /><br />
+
+            <span className="text-white font-light text-xl mb-5">WEB</span> <br /><br />
+            Advertising Partner            <br /><br />
+            <span className="text-white font-light text-xl mb-5">Link to Privacy Policy</span> <br /><br />
+
+            AppNexus :- <a href="https://about.ads.microsoft.com/en" className="text-blue-500 underline hover:text-blue-700">
+                https://www.appnexus.com/en/company/platform-privacy-policy
+            </a> <br /><br />
+            Criteo :- <a href="https://www.criteo.com/privacy/" className="text-blue-500 underline hover:text-blue-700">
+                https://www.criteo.com/privacy/
+            </a> <br /><br />
+            Google Doubleclick :- <a href="https://policies.google.com/technologies/ads" className="text-blue-500 underline hover:text-blue-700">
+                https://policies.google.com/technologies/ads
+            </a> <br /><br />
+            Index Exchange  :- <a href="https://www.indexexchange.com/privacy/" className="text-blue-500 underline hover:text-blue-700">
+                http://www.indexexchange.com/privacy/
+            </a> <br /><br />
+            Lifestreet Media :- <a href="http://www.lifestreet.com/privacy/" className="text-blue-500 underline hover:text-blue-700">
+                http://www.lifestreet.com/privacy/
+            </a> <br /><br />
+            <span className="text-white font-light text-xl mb-5">Open X</span> <br /><br />
+            Open X :- <a href="https://www.openx.com/privacy-center/ad-exchange-privacy-policy/" className="text-blue-500 underline hover:text-blue-700">
+                https://www.openx.com/legal/privacy-policy/
+
+            </a> <br /><br />
+            <span className="text-white font-light text-xl mb-5">Open X</span> <br /><br />
+            Pubmatic:- <a href="https://pubmatic.com/legal/privacy-policy/" className="text-blue-500 underline hover:text-blue-700">
+                Advertiser Platform Privacy Policy
+
+            </a> <br /><br />
+            <span className="text-white font-light text-xl mb-5">Rubicon Project</span> <br /><br />
+            <a href="https://www.magnite.com/legal/advertising-platform-privacy-policy/" className="text-blue-500 underline hover:text-blue-700">
+                https://rubiconproject.com/privacy
+
+            </a> <br /><br />
+            Supersonic/Ironsource :- <a href="https://developers.is.com/ironsource-mobile/air/ironsource-mobile-privacy-policy/" className="text-blue-500 underline hover:text-blue-700">
+                https://developers.ironsrc.com/ironsource-mobile/air/ironsource-mobile-privacy-policy/
+
+            </a> <br /><br />
+            Tap Research :- <a href="https://www.tapresearch.com/legal/privacy-policy-en" className="text-blue-500 underline hover:text-blue-700">
+                https://www.tapresearch.com/user/privacy
+            </a> <br /><br />
+            The links to the third party privacy policies below were last checked on March , 2026.
         </>)
     },
 
@@ -441,7 +536,6 @@ export default function PrivacyPolicy() {
 
                     </div>
 
-                    {/* ================= RIGHT TABLE OF CONTENT ================= */}
                     {/* ================= RIGHT TABLE OF CONTENT ================= */}
                     <div className="w-auto hidden lg:block">
                         <div className="
