@@ -7,7 +7,7 @@ import "swiper/css/navigation";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper/modules";
 import CountUp from "react-countup";
-import ScrollAnimation from "react-animate-on-scroll";
+import { motion } from "framer-motion";
 import "animate.css";
 
 
@@ -26,6 +26,12 @@ function Aboutus() {
         document.title = "About Us - Woxxin Games";
     }, []);
 
+    const fadeUp = {
+        initial: { opacity: 0, y: 60 },
+        whileInView: { opacity: 1, y: 0 },
+        transition: { duration: 0.6 },
+        viewport: { once: true },
+    };
     return (
         <>
             <section className="w-full  text-white px-4 md:px-12 md:py-12 md:py-20">
@@ -34,71 +40,78 @@ function Aboutus() {
 
                     {/* 🔹 TOP CONTENT (TEXT ONLY) */}
                     <div className="text-center md:text-left">
+                        <motion.div {...fadeUp}>
 
-                        <h1 className="font-extrabold leading-[1.1] tracking-wide mt-10 md:mt-5">
-                            <span className="block text-[46px] sm:text-[50px] md:text-[70px] lg:text-[85px] bg-gradient-to-r from-[#FFFFFF] to-[#AAA7FE] bg-clip-text text-transparent">
-                                EXPLORE ICONIC GAMES
-                            </span>
-                        </h1>
+                            <h1 className="font-extrabold leading-[1.1] tracking-wide mt-10 md:mt-5">
+                                <span className="block text-[46px] sm:text-[50px] md:text-[70px] lg:text-[85px] bg-gradient-to-r from-[#FFFFFF] to-[#AAA7FE] bg-clip-text text-transparent">
+                                    EXPLORE ICONIC GAMES
+                                </span>
+                            </h1>
+                        </motion.div>
+                        <motion.div {...fadeUp}>
 
-                        <p className="mt-4 text-gray-400 text-xl md:text-2xl">
-                            That Captivate The World
-                        </p>
-
+                            <p className="mt-4 text-gray-400 text-xl md:text-2xl">
+                                That Captivate The World
+                            </p>
+                        </motion.div>
                     </div>
 
                     {/* 🔹 BOTTOM CONTENT (BUTTON + IMAGE) */}
                     <div className="mt-10 flex flex-col md:flex-row items-center md:items-start justify-between gap-5">
+                        <motion.div {...fadeUp}>
 
-                        <div className="flex items-center relative">
+                            <div className="flex items-center relative">
 
-                            {/* OWL */}
-                            <div className="relative z-10 -mr-8">
-                                <Image
-                                    src="/woolOwl.png"
-                                    alt="owl"
-                                    width={57}
-                                    height={58}
-                                    className=' md:h-[70px] md:w-[70px]'
-                                />
-                            </div>
+                                {/* OWL */}
+                                <div className="relative z-10 -mr-8">
+                                    <Image
+                                        src="/woolOwl.png"
+                                        alt="owl"
+                                        width={57}
+                                        height={58}
+                                        className=' md:h-[70px] md:w-[70px]'
+                                    />
+                                </div>
 
-                            {/* BUTTON */}
-                            <div className="relative bg-[#EDEDF5] pl-10 pr-10 py-2 rounded-full">
+                                {/* BUTTON */}
+                                <div className="relative bg-[#EDEDF5] pl-10 pr-10 py-2 rounded-full">
 
-                                <span className="text-[#8B8CF8] text-sm md:text-md font-light whitespace-nowrap">
-                                    Start Your Journey
-                                </span>
+                                    <span className="text-[#8B8CF8] text-sm md:text-md font-light whitespace-nowrap">
+                                        Start Your Journey
+                                    </span>
 
-                                {/* 🔥 LUCIDE ARROW */}
-                                <div className="absolute right-[-12px] top-1/2 -translate-y-1/2 w-7 h-7 flex items-center justify-center rounded-full bg-[#AAA7FE] text-white shadow-md">
+                                    {/* 🔥 LUCIDE ARROW */}
+                                    <div className="absolute right-[-12px] top-1/2 -translate-y-1/2 w-7 h-7 flex items-center justify-center rounded-full bg-[#AAA7FE] text-white shadow-md">
 
-                                    <ArrowUpRight size={16} strokeWidth={2.5} />
+                                        <ArrowUpRight size={16} strokeWidth={2.5} />
+
+                                    </div>
 
                                 </div>
 
                             </div>
+                        </motion.div>
+                        <motion.div {...fadeUp}>
 
-                        </div>
-                        {/* IMAGE */}
-                        <div className="relative z-1">
-                            <div className="w-full md:w-auto flex justify-center md:justify-end md:-mt-15">
-                                <Image
-                                    src="/twoCartton.png"
-                                    alt="characters"
-                                    width={600}
-                                    height={600}
-                                    priority
-                                    className="w-[320px] md:w-[500px] lg:w-[600px] xl:w-[650px] 2xl:w-[700px] object-contain"
-                                />
+                            <div className="relative z-1">
+                                <div className="w-full md:w-auto flex justify-center md:justify-end md:-mt-15">
+                                    <Image
+                                        src="/twoCartton.png"
+                                        alt="characters"
+                                        width={600}
+                                        height={600}
+                                        priority
+                                        className="w-[320px] md:w-[500px] lg:w-[600px] xl:w-[650px] 2xl:w-[700px] object-contain"
+                                    />
+                                </div>
                             </div>
-                        </div>
+                        </motion.div>
                     </div>
 
                 </div>
             </section>
             {/* ///code1 */}
-            <ScrollAnimation animateIn="animate__animated animate__fadeInUp">
+            <motion.div {...fadeUp}>
 
                 <section className="hidden md:block relative overflow-hidden md:-mt-[160px] lg:-mt-[180px] xl:-mt-[190px] 2xl:-mt-[225px]">
                     <div className="relative w-full">
@@ -112,7 +125,7 @@ function Aboutus() {
                         />
                     </div>
                 </section>
-            </ScrollAnimation>
+            </motion.div>
             {/* ///code2 */}
 
             <section className="md:hidden relative w-full py-16 overflow-hidden">
@@ -129,7 +142,7 @@ function Aboutus() {
 
                 <div className="max-w-7xl mx-auto flex flex-col items-center gap-10 mt-10 mb-10 px-4">
 
-                    <ScrollAnimation animateIn="animate__animated animate__fadeInUp">
+                    <motion.div {...fadeUp}>
 
                         <div className="flex justify-center">
                             <Image
@@ -141,12 +154,12 @@ function Aboutus() {
                                 priority
                             />
                         </div>
-                    </ScrollAnimation>
+                    </motion.div>
                     {/* CONTENT */}
                     <div className="w-full space-y-8 text-center mb-5">
 
                         {/* OUR VISIONS */}
-                        <ScrollAnimation animateIn="animate__animated animate__fadeInUp">
+                        <motion.div {...fadeUp}>
 
                             <div>
                                 <h2 className="text-white text-xl font-bold tracking-wide">
@@ -160,14 +173,14 @@ function Aboutus() {
                                     game development to the global stage.
                                 </p>
                             </div>
-                        </ScrollAnimation>
+                        </motion.div>
 
-                        <ScrollAnimation animateIn="animate__animated animate__fadeInUp">
+                        <motion.div {...fadeUp}>
 
                             <div className="w-full h-[1px] bg-gray-700"></div>
-                        </ScrollAnimation>
+                        </motion.div>
                         {/* OUR MISSION */}
-                        <ScrollAnimation animateIn="animate__animated animate__fadeInUp">
+                        <motion.div {...fadeUp}>
 
                             <div>
                                 <h2 className="text-white text-xl font-bold tracking-wide">
@@ -181,7 +194,7 @@ function Aboutus() {
                                     around the world through innovative and engaging games.
                                 </p>
                             </div>
-                        </ScrollAnimation>
+                        </motion.div>
 
                     </div>
                 </div>
@@ -193,29 +206,29 @@ function Aboutus() {
                     {/* 🔹 LEFT CONTENT */}
                     <div className="w-full md:w-1/2 text-center md:text-left">
 
-                        <ScrollAnimation animateIn="animate__animated animate__fadeInUp">
+                        <motion.div {...fadeUp}>
 
                             <h2 className="text-[28px] sm:text-[34px] md:text-[42px] font-extrabold tracking-wide bg-gradient-to-r from-[#FFFFFF] to-[#AAA7FE] bg-clip-text text-transparent">
                                 GAME PUBLISH
                             </h2>
-                        </ScrollAnimation>
-                        <ScrollAnimation animateIn="animate__animated animate__fadeInUp">
+                        </motion.div>
+                        <motion.div {...fadeUp}>
 
                             <p className="mt-4 text-gray-400 text-md sm:text-xl leading-relaxed max-w-xl mx-auto md:mx-0">
                                 At Woxxin Games, we combine years of game distribution expertise with a powerful data-driven approach to help developers grow. As a trusted global partner, we optimize performance, boost visibility, and maximize your game’s revenue.
                             </p>
-                        </ScrollAnimation>
+                        </motion.div>
 
-                        <ScrollAnimation animateIn="animate__animated animate__fadeInUp">
+                        <motion.div {...fadeUp}>
 
                             <p className="mt-4 text-[#AFAEFF] text-md sm:text-xl font-medium">
                                 Let’s grow together and turn great games into global successes. 🚀
                             </p>
-                        </ScrollAnimation>
+                        </motion.div>
 
 
                         <div className="mt-8 flex flex-col sm:flex-row items-center md:items-start justify-center md:justify-start gap-10 sm:gap-16">
-                            <ScrollAnimation animateIn="animate__animated animate__fadeInUp">
+                            <motion.div {...fadeUp}>
 
                                 <div className="text-center md:text-left">
                                     <h3 className="text-[48px] md:text-[56px] font-bold">
@@ -225,8 +238,8 @@ function Aboutus() {
                                     <div className="w-16 h-[2px] bg-gray-600 my-2 mx-auto md:mx-0"></div>
                                     <p className="text-gray-400 text-lg tracking-wide">GAMES LAUNCHED</p>
                                 </div>
-                            </ScrollAnimation>
-                            <ScrollAnimation animateIn="animate__animated animate__fadeInUp">
+                            </motion.div>
+                            <motion.div {...fadeUp}>
 
                                 <div className="text-center md:text-left">
                                     <h3 className="text-[48px] md:text-[56px] font-bold">
@@ -235,14 +248,14 @@ function Aboutus() {
                                     <div className="w-16 h-[2px] bg-gray-600 my-2 mx-auto md:mx-0"></div>
                                     <p className="text-gray-400 text-lg tracking-wide">DOWNLOADS</p>
                                 </div>
-                            </ScrollAnimation>
+                            </motion.div>
 
                         </div>
                     </div>
 
 
                     <div className="w-full md:w-1/2 flex justify-center md:justify-end">
-                        <ScrollAnimation animateIn="animate__animated animate__fadeInUp">
+                        <motion.div {...fadeUp}>
 
                             <Image
                                 src="/wool3D.png" // 👈 your image
@@ -251,7 +264,7 @@ function Aboutus() {
                                 height={600}
                                 className="w-[280px]  md:w-[500px] object-contain"
                             />
-                        </ScrollAnimation>
+                        </motion.div>
                     </div>
 
 
@@ -264,23 +277,23 @@ function Aboutus() {
 
                     {/* HEADING */}
                     <div className="text-center mb-10">
-                        <ScrollAnimation animateIn="animate__animated animate__fadeInUp">
+                        <motion.div {...fadeUp}>
 
                             <h2 className="text-[32px] md:text-[56px] font-bold bg-gradient-to-r from-[#FFFFFF] to-[#AAA7FE] bg-clip-text text-transparent">
                                 ONLY LEGENDS RULE THE LEADERBOARD
                             </h2>
-                        </ScrollAnimation>
-                        <ScrollAnimation animateIn="animate__animated animate__fadeInUp">
+                        </motion.div>
+                        <motion.div {...fadeUp}>
 
                             <p className="text-gray-400  text-md md:text-xl mt-3 max-w-5xl mx-auto">
                                 Compete with players worldwide and climb to the top. Earn your spot, beat high scores, and become a champion.
                             </p>
-                        </ScrollAnimation>
+                        </motion.div>
                     </div>
                     <div className="max-w-7xl mx-auto">
 
                         <div className="relative w-full">
-                            <ScrollAnimation animateIn="animate__animated animate__fadeInUp">
+                            <motion.div {...fadeUp}>
 
                                 <Image
                                     src="/table.png"   // 👈 your image
@@ -290,7 +303,7 @@ function Aboutus() {
                                     priority
                                     className="w-full h-auto object-contain"
                                 />
-                            </ScrollAnimation>
+                            </motion.div>
                         </div>
 
                     </div>
