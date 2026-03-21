@@ -226,9 +226,7 @@ const sections = [
             <br /><br />
             <span className="text-white font-light text-xl mb-5">4. Billing Support:
             </span> <br /><br />
-            For billing support, please contact us through <i className="text-blue-500 underline hover:text-blue-700 cursor-pointer">
-                support@woxxingames.com
-            </i>  or Please note that telephone support for billing-related issues and questions is available in English only. These telephone numbers are for billing-related issues and questions ONLY. The person that answers the telephone at these billing support telephone numbers will NOT be able to help you with technical issues, game play, or in-game purchasing questions. For non-billing customer assistance, you must contact us through Customer Support.
+            For billing support,  Please note that telephone support for billing-related issues and questions is available in English only. These telephone numbers are for billing-related issues and questions ONLY. The person that answers the telephone at these billing support telephone numbers will NOT be able to help you with technical issues, game play, or in-game purchasing questions. For non-billing customer assistance, you must contact us through Customer Support.
         </>)
     },
     {

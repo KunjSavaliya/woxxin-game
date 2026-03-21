@@ -20,14 +20,33 @@ export default function Footer() {
 
                 {/* DESCRIPTION */}
                 <p className="text-gray-300 text-sm sm:text-base md:text-lg leading-relaxed max-w-2xl mx-auto">
-                    Woxxin Games is a mobile game publisher located in Surat, India. We established in the year 2021. Our goal is to provide entertainment to people through our games.
+                    Woxxin Games is a mobile game publisher based in Surat, India, founded in 2021. We create immersive games designed to entertain, engage, and inspire players worldwide.
                 </p>
 
                 {/* SOCIAL LINKS (TEXT STYLE) */}
                 <div className="flex justify-center gap-6 mt-8 text-gray-400 text-sm uppercase tracking-wide">
-                    <Link href="https://www.youtube.com/channel/UCJJOqSmgPQuQiGoCVGdAWZQ" className="hover:text-white transition">Youtube</Link>
-                    <Link href="https://www.instagram.com/woxxinsolution?utm_source=qr&igsh=MWl0d2p4ZGhsdDE0ag==" className="hover:text-white transition ">Instagram</Link>
-                    <Link href="https://www.linkedin.com/company/woxxinsolution/ " className="hover:text-white transition ">LinkedIn</Link>
+
+                    <Link
+                        href="https://www.youtube.com/channel/UCJJOqSmgPQuQiGoCVGdAWZQ"
+                        className="hover:text-white hover:underline underline-offset-4 decoration-[#AAA7FE] transition"
+                    >
+                        Youtube
+                    </Link>
+
+                    <Link
+                        href="https://www.instagram.com/woxxinsolution"
+                        className="hover:text-white hover:underline underline-offset-4 decoration-[#AAA7FE] transition"
+                    >
+                        Instagram
+                    </Link>
+
+                    <Link
+                        href="https://www.linkedin.com/company/woxxinsolution/"
+                        className="hover:text-white hover:underline underline-offset-4 decoration-[#AAA7FE] transition"
+                    >
+                        LinkedIn
+                    </Link>
+
                 </div>
             </div>
 
@@ -52,7 +71,7 @@ export default function Footer() {
                 {/* RIGHT */}
                 <div>
                     Copyright ©  {new Date().getFullYear()}{" "}
-                    <span className="text-[#AFAEFF]">Woxxin Games</span>.
+                    <span className="text-[#AFAEFF]">Woxxin Gameing Studio</span>.
                 </div>
 
             </div>

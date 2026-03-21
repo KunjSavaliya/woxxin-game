@@ -9,7 +9,7 @@ import { Pagination } from "swiper/modules";
 import CountUp from "react-countup";
 import { motion } from "framer-motion";
 import "animate.css";
-
+import Link from "next/link";
 
 const games = [
     "/S1.png",
@@ -73,21 +73,19 @@ function Aboutus() {
                                     />
                                 </div>
 
-                                {/* BUTTON */}
-                                <div className="relative bg-[#EDEDF5] pl-10 pr-10 py-2 rounded-full">
+                                <Link href="/components/pages/games"> {/* 👈 change route */}
+                                    <div className="relative bg-[#EDEDF5] pl-10 pr-10 py-2 rounded-full cursor-pointer">
 
-                                    <span className="text-[#8B8CF8] text-sm md:text-md font-light whitespace-nowrap">
-                                        Start Your Journey
-                                    </span>
+                                        <span className="text-[#8B8CF8] text-sm md:text-md font-semibold whitespace-nowrap">
+                                            Start Your Journey
+                                        </span>
 
-                                    {/* 🔥 LUCIDE ARROW */}
-                                    <div className="absolute right-[-12px] top-1/2 -translate-y-1/2 w-7 h-7 flex items-center justify-center rounded-full bg-[#AAA7FE] text-white shadow-md">
-
-                                        <ArrowUpRight size={16} strokeWidth={2.5} />
+                                        <div className="absolute right-[-12px] top-1/2 -translate-y-1/2 w-7 h-7 flex items-center justify-center rounded-full bg-[#AAA7FE] text-white shadow-md">
+                                            <ArrowUpRight size={16} strokeWidth={2.5} />
+                                        </div>
 
                                     </div>
-
-                                </div>
+                                </Link>
 
                             </div>
                         </motion.div>
@@ -169,8 +167,7 @@ function Aboutus() {
                                     </span>
                                 </h2>
                                 <p className="mt-3 text-gray-400 text-md leading-relaxed">
-                                    To become a leading force in the gaming industry, elevating India’s
-                                    game development to the global stage.
+                                    To become a globally recognized game publishing studio known for innovation, quality, and player-focused gaming experiences.
                                 </p>
                             </div>
                         </motion.div>
@@ -190,8 +187,7 @@ function Aboutus() {
                                     </span>
                                 </h2>
                                 <p className="mt-3 text-gray-400 text-md leading-relaxed">
-                                    To deliver high-quality gaming experiences and connect players
-                                    around the world through innovative and engaging games.
+                                    To create fun, accessible, and high-performance games that bring joy to players while continuously pushing creative and technological boundaries in the gaming industry.
                                 </p>
                             </div>
                         </motion.div>
@@ -209,13 +205,13 @@ function Aboutus() {
                         <motion.div {...fadeUp}>
 
                             <h2 className="text-[28px] sm:text-[34px] md:text-[42px] font-extrabold tracking-wide bg-gradient-to-r from-[#FFFFFF] to-[#AAA7FE] bg-clip-text text-transparent">
-                                GAME PUBLISH
+                                GAME PUBLISHING
                             </h2>
                         </motion.div>
                         <motion.div {...fadeUp}>
 
                             <p className="mt-4 text-gray-400 text-md sm:text-xl leading-relaxed max-w-xl mx-auto md:mx-0">
-                                At Woxxin Games, we combine years of game distribution expertise with a powerful data-driven approach to help developers grow. As a trusted global partner, we optimize performance, boost visibility, and maximize your game’s revenue.
+                                At Woxxin Games, we combine game distribution expertise with a powerful data-driven approach to help developers grow. As a trusted global partner, we optimize performance, boost visibility, and maximize your game’s revenue potential.
                             </p>
                         </motion.div>
 

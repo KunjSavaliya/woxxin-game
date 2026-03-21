@@ -82,7 +82,7 @@ export default function Navbar() {
                 text-white text-xl font-medium
                 px-5 py-2 pr-10
                 rounded-full
-                border border-white/40
+                border border-white/80
                 hover:border-white
                 transition-all duration-300
               "

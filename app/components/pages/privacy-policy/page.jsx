@@ -9,7 +9,7 @@ const sections = [
         content: (
             <>
 
-                Woxxin Solutions (a company registered in India (registration number U72200GJ2019PTC107596), whose registered office is at SHOP 128,1ST FLOOR,SY.NO.2111 TPS-24 FP-34.OPP.AKHAND ANAND COLLEGE, VED ROAD Surat Gujarat India 395004) is the data controller of the personal information that we collect from you. Woxxin Solution are referred to in this Privacy Policy as “Woxxin Solution”, “us”, “we” or “our”. <br /><br />
+                Woxxin Solutions (a company registered in India (registration number U72200GJ2019PTC107596), whose registered office is at SHOP 128,1ST FLOOR,SY.NO.2111 TPS-24 FP-34.OPP.AKHAND ANAND COLLEGE, VED ROAD Surat, Gujarat, India 395004) is the data controller of the personal information that we collect from you. Woxxin Solution are referred to in this Privacy Policy as “Woxxin Solution”, “us”, “we” or “our”. <br /><br />
                 <span>  We are committed to providing fun and exciting digital entertainment. This Privacy Policy explains how and what personal data relating to you
                     we may use in relation to our main website{" "}
 
@@ -31,7 +31,7 @@ const sections = [
                 This Privacy Policy governs the collection, storage and use of personal information by us via our websites, apps and Services. It provides you with details about the personal information we collect from you, how we use your personal information, and your rights regarding the personal information we hold about you. Please read this Privacy Policy carefully.
                 <br /><br />
 
-                <span className="text-white font-light text-xl mb-5">Third party sites:-</span> <br /><br /> <span>Please note that the Services may contain links to websites or other services owned and operated by third parties.We do not endorse any such third - party services.We are not responsible or liable for anything that happens to you when you visit or use these services.Woxxin Solution strongly recommends that you review the privacy policies and cookie usage of these third parties</span>
+                <span className="text-white font-light text-xl mb-5">Third party sites:-</span> <br /><br /> <span>Please note that the Services may contain links to websites or other services owned and operated by third parties. We do not endorse any such third - party services.We are not responsible or liable for anything that happens to you when you visit or use these services. Woxxin Solution strongly recommends that you review the privacy policies and cookie usage of these third parties</span>
 
 
             </>
@@ -155,7 +155,7 @@ const sections = [
         id: "keepHold",
         title: "How long does Woxxin Solution keep hold of data?",
         content: (<>
-            We will keep data only for as long as it is relevant and useful for the purpose for which it was originally collected and otherwise where required by law. This means that we will only retain your data for the minimum reasonable time period to allow us to provide our Services to you. If you decide to delete an account you have with us, certain data does stay on our Woxxin Solution system for administrative purposes and to defend or bring any legal action.
+            We will keep data only for as long as it is relevant and useful for the purpose for which it was originally collected and otherwise where required by law. This means that we will only retain your data for the minimum reasonable time period to allow us to provide our Services to you. If you decide to delete an account you have with us, certain data does stay on our Woxxin Solution system for administrative purposes and to defend or bring any legal action.Please email us at woxxingames@gmail.com for information regarding retention periods.
         </>)
     },
     {
@@ -244,7 +244,7 @@ const sections = [
         id: "OPT-OUT",
         title: "OPT-OUT (Right to Restrict Processing)",
         content: (<>
-            You have the right to opt out of certain uses and disclosures of your Personal Information. When you have consented to Woxxins’ processing of your Personal Information other information, you may withdraw that consent at any time and opt out to further processing by opening an in-game support ticket or, alternatively, by contacting support@Woxxingames.com. Even if you opt out, we may still collect and use anonymized, non-Personal Information regarding your activities on our Services.
+            You have the right to opt out of certain uses and disclosures of your Personal Information. When you have consented to Woxxins’ processing of your Personal Information other information, you may withdraw that consent at any time and opt out to further processing by opening an in-game support ticket or, alternatively, by contacting woxxingames@gmail.com. Even if you opt out, we may still collect and use anonymized, non-Personal Information regarding your activities on our Services.
             <br />,<br />
             Please also note that certain records, for example, those relating to payments or customer service matters, will be held for legal and accounting purposes. If you have sent content through or posted content on the Service, we may not be able to delete it.
             <br /><br />
@@ -271,13 +271,13 @@ const sections = [
         id: "ORectification",
         title: "Rights of Access, Rectification, Erasure, and Restriction",
         content: (<>
-            You have the right to request access to and rectification or erasure of Personal Information. You can manage your information as described in this Privacy Policy, and you may have additional rights related to that information as described below. You can exercise these rights by opening a help ticket directly in-game via the ‘Help’ section, or by emailing Woxxin at support@Woxxingames.com. Please note that we will need sufficient information establishing your identity in order for us to fulfill your request. Where we can validate your identity, we will process any such request within a reasonable timeframe and in accordance with applicable law.
+            You have the right to request access to and rectification or erasure of Personal Information. You can manage your information as described in this Privacy Policy, and you may have additional rights related to that information as described below. You can exercise these rights by opening a help ticket directly in-game via the ‘Help’ section, or by emailing Woxxin at woxxingames@gmail.com. Please note that we will need sufficient information establishing your identity in order for us to fulfill your request. Where we can validate your identity, we will process any such request within a reasonable timeframe and in accordance with applicable law.
             <br /><br />
             <span className="text-white font-light text-xl mb-5">1. Accessing, Updating, or Correcting Your Data</span> <br /><br />
-            You are expected to maintain accurate, complete, and up-to-date information in connection with your account, but we provide you functionality to update or correct your information directly in-app. You can also access a range of information in-app, including things like your user name, picture or avatar, game performance and progress, virtual items, chats, or other information you may have entered in-app. For any information that you are not able to access or update directly, please open an in-game help ticket via the ‘Help’ section for that particular game, or contact support@Woxxingames.com.
+            You are expected to maintain accurate, complete, and up-to-date information in connection with your account, but we provide you functionality to update or correct your information directly in-app. You can also access a range of information in-app, including things like your user name, picture or avatar, game performance and progress, virtual items, chats, or other information you may have entered in-app. For any information that you are not able to access or update directly, please open an in-game help ticket via the ‘Help’ section for that particular game, or contact woxxingames@gmail.com.
             <br /><br />
             <span className="text-white font-light text-xl mb-5">2. Deletion of Your Data</span> <br /><br />
-            You have the right to request deletion of your personal information, subject to our data retention policy mentioned below. If you would like to have your personal information deleted with respect to any games you’ve played, please open an in-game help ticket via the ‘Help’ section for that game. If you have played multiple Woxxin games and want to have your personal information deleted as to all of them, please open a help ticket directly in-game via the ‘Help’ section for each of those games, or contact support@Woxxingames.com for help. Please note that if you delete your personal information, you may no longer use or access the Services, and that if you share devices with someone else who uses the Services, that person may lose game progress or related account information and access. If you decide to use or access the Services again, Woxxin may consider this a new account and may collect personal information associated with that account in accordance with this Privacy Policy.
+            You have the right to request deletion of your personal information, subject to our data retention policy mentioned below. If you would like to have your personal information deleted with respect to any games you’ve played, please open an in-game help ticket via the ‘Help’ section for that game. If you have played multiple Woxxin games and want to have your personal information deleted as to all of them, please open a help ticket directly in-game via the ‘Help’ section for each of those games, or contact woxxingames@gmail.com for help. Please note that if you delete your personal information, you may no longer use or access the Services, and that if you share devices with someone else who uses the Services, that person may lose game progress or related account information and access. If you decide to use or access the Services again, Woxxin may consider this a new account and may collect personal information associated with that account in accordance with this Privacy Policy.
 
         </>)
     },
@@ -308,7 +308,7 @@ const sections = [
         id: "Guardians",
         title: "For Parents/Guardians",
         content: (<>
-            If you would like to review or amend your child’s information, ask to have it deleted, and/or refuse to allow any further collection or use of your child’s information, then please send an email to our Data Protection Officer at support@Woxxingames.com. Please be sure to include your email address and a telephone number where we can reach you. To protect your child’s privacy and security, we will take reasonable steps to help verify your identity before granting you access to the information that we collect and maintain about your child.
+            If you would like to review or amend your child’s information, ask to have it deleted, and/or refuse to allow any further collection or use of your child’s information, then please send an email to our Data Protection Officer at woxxingames@gmail.com. Please be sure to include your email address and a telephone number where we can reach you. To protect your child’s privacy and security, we will take reasonable steps to help verify your identity before granting you access to the information that we collect and maintain about your child.
             <br /><br />
             We recommend that parents take the time to communicate and educate their children about Internet Safety.
         </>)
@@ -327,7 +327,7 @@ const sections = [
             <br /><br />
             If you have an account with us, in certain games, you can view and edit your profile to change the settings in order to prevent others being able to add you as a friend.
             <br /><br />
-            If you wish to exercise any of the above rights, please get in touch with us by emailing support@Woxxingames.com.
+            If you wish to exercise any of the above rights, please get in touch with us by emailing woxxingames@gmail.com.
 
         </>)
     },
@@ -335,7 +335,7 @@ const sections = [
         id: "getCopy",
         title: "How do I get a copy of my data?",
         content: (<>
-            You have the right to ask us to provide you with copies of personal data that we hold about you at any time. Please contact us by emailing support@Woxxingames.com.
+            You have the right to ask us to provide you with copies of personal data that we hold about you at any time. Please contact us by emailing woxxingames@gmail.com.
 
         </>)
     },
@@ -343,7 +343,7 @@ const sections = [
         id: "contact",
         title: "How can I contact Woxxin Solution?",
         content: (<>
-            If you have any questions about this Privacy Policy or wish to request a copy of the data which we hold about you, please contact our Data Protection Officer at support@Woxxingames.com.
+            If you have any questions about this Privacy Policy or wish to request a copy of the data which we hold about you, please contact our Data Protection Officer at woxxingames@gmail.com.
 
         </>)
     },
@@ -351,7 +351,7 @@ const sections = [
         id: "complaint",
         title: "What can I do if I have a complaint?",
         content: (<>
-            If you are not satisfied with the way your query or complaint is handled by Woxxin Solution, please let us know by emailing us at support@Woxxingames.com.
+            If you are not satisfied with the way your query or complaint is handled by Woxxin Solution, please let us know by emailing us at woxxingames@gmail.com.
             <br /><br />
             List of advertising partners used in Woxxin Solution’s games
 
