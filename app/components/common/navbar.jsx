@@ -19,7 +19,7 @@ export default function Navbar() {
         <header className="sticky top-0 z-50 w-full">
 
             {/* FULL WIDTH BAR */}
-            <div className="w-full p-3 bg-black backdrop-blur-xl border-b border-white/10">
+            <div className="w-full bg-black backdrop-blur-xl border-b border-white/10">
 
                 {/* INNER CONTENT */}
                 <div className="max-w-[1200px] mx-auto px-4 md:px-8 py-3 flex items-center justify-between">
